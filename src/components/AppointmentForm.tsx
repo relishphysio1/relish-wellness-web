@@ -1,4 +1,5 @@
 
+import React from "react";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { toast } from "@/components/ui/use-toast";
@@ -7,7 +8,7 @@ const AppointmentForm = () => {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
-  const phoneNumber = "+919876543210"; // Replace with actual WhatsApp number
+  const phoneNumber = "+917601026596"; // Updated to the correct WhatsApp number
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -36,7 +37,7 @@ const AppointmentForm = () => {
 
   const handleWhatsAppRedirect = () => {
     const whatsappMessage = encodeURIComponent(
-      `Hello, I would like to book an appointment at Relish Physiotherapy. My name is ${name || "[Your Name]"} and my phone number is ${phone || "[Your Phone]"}. ${message ? `Additional info: ${message}` : ""}`
+      `Hello Dr. Mohammed Hamid Ali, I would like to book an appointment at Relish Physiotherapy. My name is ${name || "[Your Name]"} and my phone number is ${phone || "[Your Phone]"}. ${message ? `Additional info: ${message}` : ""}`
     );
     window.open(`https://wa.me/${phoneNumber}?text=${whatsappMessage}`, "_blank");
   };
@@ -70,7 +71,7 @@ const AppointmentForm = () => {
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-relish-500"
-            placeholder="+91 98765 43210"
+            placeholder="+91 76010 26596"
             required
           />
         </div>
@@ -90,15 +91,12 @@ const AppointmentForm = () => {
         </div>
         
         <div className="flex flex-col sm:flex-row gap-3">
-          <Button type="submit" className="bg-relish-600 hover:bg-relish-700 flex-1">
-            Request Appointment
-          </Button>
           <Button 
             type="button" 
             className="bg-green-600 hover:bg-green-700 flex-1"
             onClick={handleWhatsAppRedirect}
           >
-            WhatsApp Us
+            Book via WhatsApp
           </Button>
         </div>
       </form>

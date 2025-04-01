@@ -1,4 +1,5 @@
 
+import React from "react";
 import { NavLink } from "react-router-dom";
 import { MapPin, Phone, MessageSquare, Clock } from "lucide-react";
 
@@ -13,7 +14,7 @@ const Footer = () => {
               <span className="text-lg font-medium text-wellness-600">Physiotherapy</span>
             </div>
             <p className="text-muted-foreground mb-6">
-              Professional physiotherapy and wellness services dedicated to improving your quality of life.
+              Professional physiotherapy and wellness services by Dr. Mohammed Hamid Ali, BPT, dedicated to improving your quality of life.
             </p>
             <div className="flex gap-2">
               {/* Social Icons would go here */}
@@ -51,11 +52,11 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="w-5 h-5 text-relish-600 mt-0.5 mr-3" />
-                <span className="text-muted-foreground">123 Healing Street, Wellness City, WC 12345</span>
+                <span className="text-muted-foreground">9-4-136/46, near Masjid-e-Habeeba. Landmark: Green Chilla, Jamali Kunta, Toli Chowki, Hyderabad, Telangana 500008</span>
               </li>
               <li className="flex items-center">
                 <Phone className="w-5 h-5 text-relish-600 mr-3" />
-                <span className="text-muted-foreground">+91 9876543210</span>
+                <span className="text-muted-foreground">+91 76010 26596</span>
               </li>
               <li className="flex items-center">
                 <MessageSquare className="w-5 h-5 text-relish-600 mr-3" />
@@ -64,8 +65,9 @@ const Footer = () => {
               <li className="flex items-start">
                 <Clock className="w-5 h-5 text-relish-600 mt-0.5 mr-3" />
                 <div>
-                  <span className="text-muted-foreground block">Mon-Fri: 9:00 AM - 7:00 PM</span>
-                  <span className="text-muted-foreground block">Sat: 9:00 AM - 5:00 PM</span>
+                  <span className="text-muted-foreground block">Mon, Tue, Wed, Thu, Fri, Sat: 8:00 AM - 5:00 PM</span>
+                  <span className="text-muted-foreground block">Sunday: Closed</span>
+                  <span className="text-muted-foreground block">Online Hours: 7:00 PM - 9:00 PM</span>
                 </div>
               </li>
             </ul>

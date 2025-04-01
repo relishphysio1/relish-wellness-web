@@ -1,4 +1,5 @@
 
+import React from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import ServiceCard from "@/components/ServiceCard";
@@ -43,7 +44,7 @@ const HomePage = () => {
                 Revitalize Your Body with Expert Physiotherapy
               </h1>
               <p className="paragraph mb-8 max-w-xl">
-                At Relish Physiotherapy and Wellness Centre, we combine advanced techniques and personalized care to help you recover, strengthen, and live pain-free.
+                At Relish Physiotherapy and Wellness Centre, Dr. Mohammed Hamid Ali, BPT combines advanced techniques and personalized care to help you recover, strengthen, and live pain-free.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a href="#appointment">
@@ -98,7 +99,7 @@ const HomePage = () => {
               </div>
               <div>
                 <p className="text-sm font-medium text-gray-900">Our Location</p>
-                <p className="text-sm text-gray-600">123 Healing St, Wellness City</p>
+                <p className="text-sm text-gray-600">Toli Chowki, Hyderabad</p>
               </div>
             </div>
             <div className="flex items-center justify-center gap-3">
@@ -107,7 +108,7 @@ const HomePage = () => {
               </div>
               <div>
                 <p className="text-sm font-medium text-gray-900">Phone Number</p>
-                <p className="text-sm text-gray-600">+91 9876543210</p>
+                <p className="text-sm text-gray-600">+91 76010 26596</p>
               </div>
             </div>
             <div className="flex items-center justify-center md:justify-end gap-3">
@@ -115,8 +116,8 @@ const HomePage = () => {
                 <MessageSquare className="h-6 w-6 text-relish-600" />
               </div>
               <div>
-                <p className="text-sm font-medium text-gray-900">Email Address</p>
-                <p className="text-sm text-gray-600">contact@relishphysio.com</p>
+                <p className="text-sm font-medium text-gray-900">Business Hours</p>
+                <p className="text-sm text-gray-600">Mon-Sat: 8 AM - 5 PM</p>
               </div>
             </div>
           </div>
@@ -161,14 +162,14 @@ const HomePage = () => {
           <div className="text-center mb-12">
             <h2 className="heading-2 mb-4">Book Your Appointment</h2>
             <p className="paragraph max-w-2xl mx-auto">
-              Take the first step towards recovery. Schedule a consultation with our expert physiotherapists.
+              Take the first step towards recovery. Schedule a consultation with Dr. Mohammed Hamid Ali, BPT.
             </p>
           </div>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
             <AppointmentForm />
             <ContactMap 
-              mapEmbedUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30703868.071651287!2d64.40174671278822!3d20.04915895569306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1690531246019!5m2!1sen!2sin" 
+              mapEmbedUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.326836341144!2d78.4064509!3d17.3960958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb97c8eb026f65%3A0x5e83196a16a5e123!2sRelish%20Physiotherapy%20%26%20Wellness%20Centre!5e0!3m2!1sen!2sin!4v1743524668355!5m2!1sen!2sin" 
               className="h-full min-h-[300px]"
             />
           </div>
