@@ -14,21 +14,21 @@ const HomePage = () => {
       id: 1,
       title: "Ultrasound Therapy",
       description: "Non-invasive treatment using sound waves to reduce pain and promote healing in injured tissues.",
-      imageSrc: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+      imageSrc: "https://images.unsplash.com/photo-1631044558476-eae244bb3071?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
       altText: "Ultrasound therapy treatment"
     },
     {
       id: 2,
       title: "Exercise Therapy",
       description: "Customized exercise programs designed to improve mobility, strength, and overall function.",
-      imageSrc: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+      imageSrc: "https://images.unsplash.com/photo-1624538000860-19a5d808f1e3?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
       altText: "Physical therapist helping patient with exercise"
     },
     {
       id: 3,
       title: "Consultation & Rehabilitation",
       description: "Comprehensive assessment and personalized treatment plans for recovery and prevention.",
-      imageSrc: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+      imageSrc: "https://images.unsplash.com/photo-1581056771107-24ca5f033842?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
       altText: "Doctor consulting with patient"
     },
   ];
@@ -40,6 +40,13 @@ const HomePage = () => {
         <div className="container">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1">
+              <div className="flex items-center mb-6">
+                <img 
+                  src="/lovable-uploads/aeedb6ef-0421-4a9b-a1c5-4c10e0e3b97d.png" 
+                  alt="Relish Physiotherapy Logo" 
+                  className="h-20 mr-3" 
+                />
+              </div>
               <h1 className="heading-1 mb-6 leading-tight text-gray-800">
                 Revitalize Your Body with Expert Physiotherapy
               </h1>
@@ -47,7 +54,7 @@ const HomePage = () => {
                 At Relish Physiotherapy and Wellness Centre, Dr. Mohammed Hamid Ali, BPT combines advanced techniques and personalized care to help you recover, strengthen, and live pain-free.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <a href="#appointment">
+                <a href="https://wa.me/7601026596">
                   <Button className="btn-primary w-full sm:w-auto">
                     Book an Appointment
                   </Button>
@@ -62,7 +69,7 @@ const HomePage = () => {
             <div className="order-1 lg:order-2">
               <div className="relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" 
+                  src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" 
                   alt="Physiotherapist treating a patient"
                   className="rounded-xl shadow-xl object-cover h-[400px] w-full animate-float"
                 />
@@ -92,7 +99,7 @@ const HomePage = () => {
       {/* Quick Contact Info */}
       <section className="py-8 bg-white border-b border-gray-100">
         <div className="container">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="flex items-center justify-center md:justify-start gap-3">
               <div className="bg-relish-100 p-3 rounded-full">
                 <MapPin className="h-6 w-6 text-relish-600" />
@@ -102,22 +109,13 @@ const HomePage = () => {
                 <p className="text-sm text-gray-600">Toli Chowki, Hyderabad</p>
               </div>
             </div>
-            <div className="flex items-center justify-center gap-3">
+            <div className="flex items-center justify-center md:justify-end gap-3">
               <div className="bg-relish-100 p-3 rounded-full">
                 <Phone className="h-6 w-6 text-relish-600" />
               </div>
               <div>
                 <p className="text-sm font-medium text-gray-900">Phone Number</p>
                 <p className="text-sm text-gray-600">+91 76010 26596</p>
-              </div>
-            </div>
-            <div className="flex items-center justify-center md:justify-end gap-3">
-              <div className="bg-relish-100 p-3 rounded-full">
-                <MessageSquare className="h-6 w-6 text-relish-600" />
-              </div>
-              <div>
-                <p className="text-sm font-medium text-gray-900">Business Hours</p>
-                <p className="text-sm text-gray-600">Mon-Sat: 8 AM - 5 PM</p>
               </div>
             </div>
           </div>

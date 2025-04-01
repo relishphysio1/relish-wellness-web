@@ -1,7 +1,7 @@
 
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { MapPin, Phone, MessageSquare, Clock } from "lucide-react";
+import { MapPin, Phone, MessageSquare } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -10,8 +10,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <div>
             <div className="flex items-center mb-4">
-              <span className="text-2xl font-bold text-relish-600 mr-2">Relish</span>
-              <span className="text-lg font-medium text-wellness-600">Physiotherapy</span>
+              <img 
+                src="/lovable-uploads/aeedb6ef-0421-4a9b-a1c5-4c10e0e3b97d.png" 
+                alt="Relish Physiotherapy Logo" 
+                className="h-16 mr-2" 
+              />
             </div>
             <p className="text-muted-foreground mb-6">
               Professional physiotherapy and wellness services by Dr. Mohammed Hamid Ali, BPT, dedicated to improving your quality of life.
@@ -61,14 +64,6 @@ const Footer = () => {
               <li className="flex items-center">
                 <MessageSquare className="w-5 h-5 text-relish-600 mr-3" />
                 <span className="text-muted-foreground">contact@relishphysio.com</span>
-              </li>
-              <li className="flex items-start">
-                <Clock className="w-5 h-5 text-relish-600 mt-0.5 mr-3" />
-                <div>
-                  <span className="text-muted-foreground block">Mon, Tue, Wed, Thu, Fri, Sat: 8:00 AM - 5:00 PM</span>
-                  <span className="text-muted-foreground block">Sunday: Closed</span>
-                  <span className="text-muted-foreground block">Online Hours: 7:00 PM - 9:00 PM</span>
-                </div>
               </li>
             </ul>
           </div>

@@ -23,8 +23,11 @@ const Navbar = () => {
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center">
           <NavLink to="/" className="flex items-center">
-            <span className="text-2xl font-bold text-relish-600 mr-2">Relish</span>
-            <span className="text-lg font-medium text-wellness-600">Physiotherapy</span>
+            <img 
+              src="/lovable-uploads/aeedb6ef-0421-4a9b-a1c5-4c10e0e3b97d.png" 
+              alt="Relish Physiotherapy Logo" 
+              className="h-12 mr-2" 
+            />
           </NavLink>
         </div>
 
@@ -44,9 +47,9 @@ const Navbar = () => {
               {link.title}
             </NavLink>
           ))}
-          <NavLink to="/#appointment">
+          <a href="https://wa.me/7601026596">
             <Button className="bg-relish-600 hover:bg-relish-700">Book Appointment</Button>
-          </NavLink>
+          </a>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -85,9 +88,9 @@ const Navbar = () => {
                 {link.title}
               </NavLink>
             ))}
-            <NavLink to="/#appointment" onClick={() => setIsMobileMenuOpen(false)}>
+            <a href="https://wa.me/7601026596" onClick={() => setIsMobileMenuOpen(false)}>
               <Button className="bg-relish-600 hover:bg-relish-700 w-full">Book Appointment</Button>
-            </NavLink>
+            </a>
           </nav>
         </div>
       )}
