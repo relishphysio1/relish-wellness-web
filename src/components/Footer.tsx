@@ -13,8 +13,9 @@ const Footer = () => {
               <img 
                 src="/lovable-uploads/aeedb6ef-0421-4a9b-a1c5-4c10e0e3b97d.png" 
                 alt="Relish Physiotherapy Logo" 
-                className="h-16 mr-2" 
+                className="h-14 mr-2" 
               />
+              <span className="text-lg font-semibold text-relish-600">Relish Physiotherapy & Wellness Centre</span>
             </div>
             <p className="text-muted-foreground mb-6">
               Professional physiotherapy and wellness services by Dr. Mohammed Hamid Ali, BPT, dedicated to improving your quality of life.

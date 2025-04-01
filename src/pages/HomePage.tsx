@@ -14,22 +14,22 @@ const HomePage = () => {
       id: 1,
       title: "Ultrasound Therapy",
       description: "Non-invasive treatment using sound waves to reduce pain and promote healing in injured tissues.",
-      imageSrc: "https://images.unsplash.com/photo-1631044558476-eae244bb3071?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
-      altText: "Ultrasound therapy treatment"
+      imageSrc: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=1080&auto=format&fit=crop",
+      altText: "Ultrasound therapy equipment being used for treatment"
     },
     {
       id: 2,
       title: "Exercise Therapy",
       description: "Customized exercise programs designed to improve mobility, strength, and overall function.",
-      imageSrc: "https://images.unsplash.com/photo-1624538000860-19a5d808f1e3?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
-      altText: "Physical therapist helping patient with exercise"
+      imageSrc: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=1080&auto=format&fit=crop",
+      altText: "Physical therapy exercise equipment"
     },
     {
       id: 3,
       title: "Consultation & Rehabilitation",
       description: "Comprehensive assessment and personalized treatment plans for recovery and prevention.",
-      imageSrc: "https://images.unsplash.com/photo-1581056771107-24ca5f033842?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
-      altText: "Doctor consulting with patient"
+      imageSrc: "https://images.unsplash.com/photo-1584516244928-cbc65cbd8f5a?q=80&w=1080&auto=format&fit=crop",
+      altText: "Physical therapy consultation room"
     },
   ];
 
@@ -69,8 +69,8 @@ const HomePage = () => {
             <div className="order-1 lg:order-2">
               <div className="relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" 
-                  alt="Physiotherapist treating a patient"
+                  src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=1080&auto=format&fit=crop" 
+                  alt="Modern physiotherapy clinic with equipment"
                   className="rounded-xl shadow-xl object-cover h-[400px] w-full animate-float"
                 />
                 <div className="absolute -bottom-5 -right-5 bg-white p-4 rounded-lg shadow-lg hidden md:block">

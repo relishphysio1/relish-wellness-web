@@ -26,8 +26,9 @@ const Navbar = () => {
             <img 
               src="/lovable-uploads/aeedb6ef-0421-4a9b-a1c5-4c10e0e3b97d.png" 
               alt="Relish Physiotherapy Logo" 
-              className="h-12 mr-2" 
+              className="h-10 mr-2" 
             />
+            <span className="text-xl font-semibold text-relish-600">Relish Physiotherapy & Wellness Centre</span>
           </NavLink>
         </div>
 
