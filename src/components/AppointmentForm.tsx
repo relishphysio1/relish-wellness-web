@@ -1,0 +1,109 @@
+
+import { Button } from "@/components/ui/button";
+import { useState } from "react";
+import { toast } from "@/components/ui/use-toast";
+
+const AppointmentForm = () => {
+  const [name, setName] = useState("");
+  const [phone, setPhone] = useState("");
+  const [message, setMessage] = useState("");
+  const phoneNumber = "+919876543210"; // Replace with actual WhatsApp number
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    
+    // Form validation
+    if (!name || !phone) {
+      toast({
+        title: "Missing Information",
+        description: "Please fill in all required fields",
+        variant: "destructive",
+      });
+      return;
+    }
+
+    // In a real application, this would send data to a backend
+    toast({
+      title: "Appointment Request Sent",
+      description: "We'll contact you shortly to confirm your appointment.",
+    });
+
+    // Reset form
+    setName("");
+    setPhone("");
+    setMessage("");
+  };
+
+  const handleWhatsAppRedirect = () => {
+    const whatsappMessage = encodeURIComponent(
+      `Hello, I would like to book an appointment at Relish Physiotherapy. My name is ${name || "[Your Name]"} and my phone number is ${phone || "[Your Phone]"}. ${message ? `Additional info: ${message}` : ""}`
+    );
+    window.open(`https://wa.me/${phoneNumber}?text=${whatsappMessage}`, "_blank");
+  };
+
+  return (
+    <div className="bg-white rounded-xl p-6 md:p-8 shadow-lg">
+      <h3 className="text-2xl font-semibold mb-6 text-gray-800">Book an Appointment</h3>
+      <form onSubmit={handleSubmit} className="space-y-5">
+        <div>
+          <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
+            Your Name*
+          </label>
+          <input
+            type="text"
+            id="name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-relish-500"
+            placeholder="John Doe"
+            required
+          />
+        </div>
+        
+        <div>
+          <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
+            Phone Number*
+          </label>
+          <input
+            type="tel"
+            id="phone"
+            value={phone}
+            onChange={(e) => setPhone(e.target.value)}
+            className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-relish-500"
+            placeholder="+91 98765 43210"
+            required
+          />
+        </div>
+        
+        <div>
+          <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
+            Message (Optional)
+          </label>
+          <textarea
+            id="message"
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
+            rows={4}
+            className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-relish-500"
+            placeholder="Tell us about your condition or any specific requirements..."
+          ></textarea>
+        </div>
+        
+        <div className="flex flex-col sm:flex-row gap-3">
+          <Button type="submit" className="bg-relish-600 hover:bg-relish-700 flex-1">
+            Request Appointment
+          </Button>
+          <Button 
+            type="button" 
+            className="bg-green-600 hover:bg-green-700 flex-1"
+            onClick={handleWhatsAppRedirect}
+          >
+            WhatsApp Us
+          </Button>
+        </div>
+      </form>
+    </div>
+  );
+};
+
+export default AppointmentForm;
