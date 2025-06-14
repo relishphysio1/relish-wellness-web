@@ -56,7 +56,7 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="w-5 h-5 text-relish-600 mt-0.5 mr-3" />
-                <span className="text-muted-foreground">9-4-136/46, near Masjid-e-Habeeba. Landmark: Green Chilla, Jamali Kunta, Toli Chowki, Hyderabad, Telangana 500008</span>
+                <span className="text-muted-foreground">Relish Physiotherapy & Wellness Centre, near Masjid-e-Habeeba. Landmark: Green Chilla, Jamali Kunta, Toli Chowki, Hyderabad, Telangana 500008</span>
               </li>
               <li className="flex items-center">
                 <Phone className="w-5 h-5 text-relish-600 mr-3" />
