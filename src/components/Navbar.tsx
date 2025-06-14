@@ -1,5 +1,4 @@
 
-
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { cn } from "@/lib/utils";
@@ -8,6 +7,7 @@ import { Menu, X } from "lucide-react";
 
 const navLinks = [
   { title: "Home", path: "/" },
+  { title: "About", path: "/about" },
   { title: "Services", path: "/services" },
   { title: "Reviews", path: "/reviews" },
 ];
@@ -22,29 +22,30 @@ const Navbar = () => {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between px-4">
-        <div className="flex items-center min-w-0">
+        <div className="flex items-center min-w-0 flex-1">
           <NavLink to="/" className="flex items-center min-w-0">
             <img 
               src="/lovable-uploads/ef07cefb-61d9-43a4-9a0a-d7fea8f18b3f.png" 
               alt="Relish Physiotherapy Logo" 
-              className="h-10 w-10 sm:h-12 sm:w-12 mr-2 sm:mr-3 rounded-full object-cover border-2 border-yellow-400 shadow-md flex-shrink-0" 
+              className="h-8 w-8 sm:h-10 sm:w-10 mr-2 flex-shrink-0" 
             />
-            <span className="text-sm sm:text-lg lg:text-xl font-semibold text-relish-600 truncate">
-              <span className="hidden sm:inline">Relish Physiotherapy & Wellness Centre</span>
+            <span className="text-xs sm:text-sm lg:text-base font-semibold text-relish-600 truncate">
+              <span className="hidden lg:inline">Relish Physiotherapy & Wellness Centre</span>
+              <span className="hidden sm:inline lg:hidden">Relish Physio & Wellness</span>
               <span className="sm:hidden">Relish Physio</span>
             </span>
           </NavLink>
         </div>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center gap-6">
+        <nav className="hidden md:flex items-center gap-4 lg:gap-6">
           {navLinks.map((link) => (
             <NavLink
               key={link.path}
               to={link.path}
               className={({ isActive }) =>
                 cn(
-                  "text-base font-medium transition-colors hover:text-relish-600 whitespace-nowrap",
+                  "text-sm lg:text-base font-medium transition-colors hover:text-relish-600 whitespace-nowrap",
                   isActive ? "text-relish-600" : "text-muted-foreground"
                 )
               }
@@ -53,7 +54,9 @@ const Navbar = () => {
             </NavLink>
           ))}
           <a href="https://wa.me/7601026596">
-            <Button className="bg-relish-600 hover:bg-relish-700 whitespace-nowrap">Book Appointment</Button>
+            <Button size="sm" className="bg-relish-600 hover:bg-relish-700 whitespace-nowrap text-xs lg:text-sm">
+              Book Appointment
+            </Button>
           </a>
         </nav>
 
@@ -66,9 +69,9 @@ const Navbar = () => {
             onClick={toggleMobileMenu}
           >
             {isMobileMenuOpen ? (
-              <X className="h-6 w-6" />
+              <X className="h-5 w-5" />
             ) : (
-              <Menu className="h-6 w-6" />
+              <Menu className="h-5 w-5" />
             )}
           </Button>
         </div>
@@ -104,4 +107,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-

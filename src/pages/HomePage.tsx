@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
@@ -36,7 +35,7 @@ const HomePage = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-50 via-green-50 to-teal-50 pt-12 pb-20 md:pt-20 md:pb-32 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-blue-50 via-green-50 to-teal-50 pt-8 pb-16 md:pt-16 md:pb-24 overflow-hidden">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-0 left-0 w-72 h-72 bg-gradient-to-br from-relish-400 to-wellness-400 rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
@@ -45,18 +44,18 @@ const HomePage = () => {
         </div>
         
         <div className="container px-4 relative z-10">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-            <div className="text-center lg:text-left space-y-8">
-              <div className="flex items-center justify-center lg:justify-start mb-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+            <div className="text-center lg:text-left space-y-6">
+              <div className="flex items-center justify-center lg:justify-start mb-4">
                 <img 
                   src="/lovable-uploads/ef07cefb-61d9-43a4-9a0a-d7fea8f18b3f.png" 
                   alt="Relish Physiotherapy Logo" 
-                  className="h-16 sm:h-20 lg:h-24 drop-shadow-lg" 
+                  className="h-12 sm:h-16 lg:h-20 drop-shadow-lg" 
                 />
               </div>
               
-              <div className="space-y-6">
-                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-display leading-tight text-gray-900">
+              <div className="space-y-4">
+                <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold font-display leading-tight text-gray-900">
                   <span className="bg-gradient-to-r from-relish-600 to-wellness-600 bg-clip-text text-transparent">
                     Revitalize Your Body
                   </span>
@@ -64,19 +63,19 @@ const HomePage = () => {
                   <span className="text-gray-800">with Expert Care</span>
                 </h1>
                 
-                <p className="text-lg sm:text-xl leading-relaxed text-gray-600 max-w-2xl mx-auto lg:mx-0">
+                <p className="text-base sm:text-lg leading-relaxed text-gray-600 max-w-2xl mx-auto lg:mx-0">
                   At Relish Physiotherapy and Wellness Centre, Dr. Mohammed Hamid Ali, BPT combines advanced techniques and personalized care to help you recover, strengthen, and live pain-free.
                 </p>
               </div>
               
-              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">
+              <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start pt-2">
                 <a href="https://wa.me/7601026596">
-                  <Button size="lg" className="bg-gradient-to-r from-relish-600 to-relish-700 hover:from-relish-700 hover:to-relish-800 text-white px-8 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 w-full sm:w-auto">
+                  <Button size="lg" className="bg-gradient-to-r from-relish-600 to-relish-700 hover:from-relish-700 hover:to-relish-800 text-white px-6 py-3 text-base font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 w-full sm:w-auto">
                     Book Appointment
                   </Button>
                 </a>
                 <Link to="/services">
-                  <Button variant="outline" size="lg" className="border-2 border-relish-600 text-relish-600 hover:bg-relish-50 px-8 py-4 text-lg font-semibold w-full sm:w-auto">
+                  <Button variant="outline" size="lg" className="border-2 border-relish-600 text-relish-600 hover:bg-relish-50 px-6 py-3 text-base font-semibold w-full sm:w-auto">
                     Explore Services
                   </Button>
                 </Link>
@@ -84,27 +83,27 @@ const HomePage = () => {
             </div>
             
             <div className="relative">
-              <div className="relative bg-white rounded-3xl shadow-2xl p-8 sm:p-12 backdrop-blur-sm bg-opacity-95">
-                <div className="text-center space-y-6">
-                  <div className="mx-auto w-24 h-24 bg-gradient-to-br from-relish-500 to-wellness-500 rounded-full flex items-center justify-center shadow-lg">
-                    <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="relative bg-white rounded-3xl shadow-2xl p-6 sm:p-8 backdrop-blur-sm bg-opacity-95">
+                <div className="text-center space-y-4">
+                  <div className="mx-auto w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-br from-relish-500 to-wellness-500 rounded-full flex items-center justify-center shadow-lg">
+                    <svg className="w-8 h-8 sm:w-10 sm:h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                     </svg>
                   </div>
                   
                   <div>
-                    <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-2">Professional Care</h3>
-                    <p className="text-gray-600 text-lg">Trusted by 500+ patients</p>
+                    <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">Professional Care</h3>
+                    <p className="text-gray-600 text-base">Excellence in Every Treatment</p>
                   </div>
                   
-                  <div className="grid grid-cols-2 gap-6 pt-4">
+                  <div className="grid grid-cols-2 gap-4 pt-3">
                     <div className="text-center">
-                      <div className="text-3xl font-bold text-relish-600">40+</div>
-                      <div className="text-sm text-gray-600">5-Star Reviews</div>
+                      <div className="text-2xl sm:text-3xl font-bold text-relish-600">40+</div>
+                      <div className="text-xs sm:text-sm text-gray-600">5-Star Reviews</div>
                     </div>
                     <div className="text-center">
-                      <div className="text-3xl font-bold text-wellness-600">5+</div>
-                      <div className="text-sm text-gray-600">Years Experience</div>
+                      <div className="text-2xl sm:text-3xl font-bold text-wellness-600">6+</div>
+                      <div className="text-xs sm:text-sm text-gray-600">Years Experience</div>
                     </div>
                   </div>
                 </div>
