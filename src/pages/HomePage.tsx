@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import ServiceCard from "@/components/ServiceCard";
 import AppointmentForm from "@/components/AppointmentForm";
 import ContactMap from "@/components/ContactMap";
-import { MapPin, Phone, MessageSquare, ArrowDown, Star } from "lucide-react";
+import { MapPin, Phone, MessageSquare, ArrowDown, Star, Stethoscope } from "lucide-react";
 
 const HomePage = () => {
   // Featured services (simplified versions)
@@ -142,6 +142,70 @@ const HomePage = () => {
               <div>
                 <p className="font-semibold text-gray-900">Phone Number</p>
                 <p className="text-gray-600">+91 76010 26596</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* About the Doctor Section */}
+      <section className="py-16 md:py-24 px-4 bg-gradient-to-br from-gray-50 to-gray-100">
+        <div className="container">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <div className="flex items-center justify-center gap-3 mb-6">
+                <div className="bg-relish-100 p-3 rounded-full">
+                  <Stethoscope className="h-8 w-8 text-relish-600" />
+                </div>
+                <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-display text-gray-900">
+                  About the <span className="bg-gradient-to-r from-relish-600 to-wellness-600 bg-clip-text text-transparent">Doctor</span>
+                </h2>
+              </div>
+            </div>
+            
+            <div className="bg-white rounded-3xl shadow-xl p-8 md:p-12">
+              <div className="space-y-6">
+                <div className="text-center mb-8">
+                  <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
+                    👨‍⚕️ About Dr. Mohammed Hamid Ali
+                  </h3>
+                </div>
+                
+                <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-6">
+                  <p className="text-lg sm:text-xl">
+                    Dr. Mohammed Hamid Ali is a certified physiotherapist, holding a Bachelor of Physiotherapy (BPT) degree, with over 6 years of hands-on clinical experience in guiding patients toward pain-free, active living. Known for his gentle demeanor and precise approach, Dr. Hamid combines deep medical knowledge with a sincere commitment to patient wellbeing.
+                  </p>
+                  
+                  <p className="text-lg sm:text-xl">
+                    His treatment philosophy is rooted in both science and compassion — ensuring each patient receives not just professional care, but also understanding, encouragement, and respect. From chronic pain to post-injury rehab, Dr. Hamid's expertise helps individuals regain mobility, confidence, and joy in everyday movement.
+                  </p>
+                </div>
+                
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-12 pt-8 border-t border-gray-200">
+                  <div className="text-center">
+                    <div className="bg-relish-50 rounded-full p-4 w-16 h-16 mx-auto mb-3 flex items-center justify-center">
+                      <span className="text-2xl">🎓</span>
+                    </div>
+                    <h4 className="font-semibold text-gray-900 mb-1">BPT Certified</h4>
+                    <p className="text-sm text-gray-600">Professional Qualification</p>
+                  </div>
+                  
+                  <div className="text-center">
+                    <div className="bg-wellness-50 rounded-full p-4 w-16 h-16 mx-auto mb-3 flex items-center justify-center">
+                      <span className="text-2xl">⏱️</span>
+                    </div>
+                    <h4 className="font-semibold text-gray-900 mb-1">6+ Years</h4>
+                    <p className="text-sm text-gray-600">Clinical Experience</p>
+                  </div>
+                  
+                  <div className="text-center">
+                    <div className="bg-yellow-50 rounded-full p-4 w-16 h-16 mx-auto mb-3 flex items-center justify-center">
+                      <span className="text-2xl">❤️</span>
+                    </div>
+                    <h4 className="font-semibold text-gray-900 mb-1">Compassionate</h4>
+                    <p className="text-sm text-gray-600">Patient-Centered Care</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
