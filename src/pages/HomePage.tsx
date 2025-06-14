@@ -13,22 +13,22 @@ const HomePage = () => {
       id: 1,
       title: "Ultrasound Therapy",
       description: "Non-invasive treatment using sound waves to reduce pain and promote healing in injured tissues.",
-      imageSrc: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=750&q=80",
-      altText: "Physiotherapist performing ultrasound therapy on patient's shoulder"
+      imageSrc: "/lovable-uploads/01292324-cb51-41f6-bd7a-1c494545808a.png",
+      altText: "Physiotherapist performing ultrasound therapy on patient's leg with handheld device and gel"
     },
     {
       id: 2,
       title: "Exercise Therapy",
       description: "Customized exercise programs designed to improve mobility, strength, and overall function.",
-      imageSrc: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=750&q=80",
-      altText: "Patient performing exercise therapy with physiotherapist guidance using resistance bands"
+      imageSrc: "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=750&q=80",
+      altText: "Patient performing guided exercise therapy with physiotherapist using resistance bands and exercise equipment"
     },
     {
       id: 3,
       title: "Consultation & Rehabilitation",
       description: "Comprehensive assessment and personalized treatment plans for recovery and prevention.",
-      imageSrc: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&auto=format&fit=crop&w=750&q=80",
-      altText: "Physiotherapist conducting consultation and assessment with patient"
+      imageSrc: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=750&q=80",
+      altText: "Physiotherapist conducting consultation and assessment, checking patient's posture and range of motion"
     },
   ];
 
