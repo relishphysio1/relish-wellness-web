@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
@@ -14,22 +13,22 @@ const HomePage = () => {
       id: 1,
       title: "Ultrasound Therapy",
       description: "Non-invasive treatment using sound waves to reduce pain and promote healing in injured tissues.",
-      imageSrc: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=1080&auto=format&fit=crop",
-      altText: "Ultrasound therapy equipment being used for treatment"
+      imageSrc: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=750&q=80",
+      altText: "Physiotherapist performing ultrasound therapy on patient's shoulder"
     },
     {
       id: 2,
       title: "Exercise Therapy",
       description: "Customized exercise programs designed to improve mobility, strength, and overall function.",
-      imageSrc: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=1080&auto=format&fit=crop",
-      altText: "Physical therapy exercise equipment"
+      imageSrc: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=750&q=80",
+      altText: "Patient performing exercise therapy with physiotherapist guidance using resistance bands"
     },
     {
       id: 3,
       title: "Consultation & Rehabilitation",
       description: "Comprehensive assessment and personalized treatment plans for recovery and prevention.",
-      imageSrc: "https://images.unsplash.com/photo-1584516244928-cbc65cbd8f5a?q=80&w=1080&auto=format&fit=crop",
-      altText: "Physical therapy consultation room"
+      imageSrc: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&auto=format&fit=crop&w=750&q=80",
+      altText: "Physiotherapist conducting consultation and assessment with patient"
     },
   ];
 
