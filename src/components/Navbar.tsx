@@ -1,4 +1,5 @@
 
+
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { cn } from "@/lib/utils";
@@ -20,15 +21,18 @@ const Navbar = () => {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 items-center justify-between">
-        <div className="flex items-center">
-          <NavLink to="/" className="flex items-center">
+      <div className="container flex h-16 items-center justify-between px-4">
+        <div className="flex items-center min-w-0">
+          <NavLink to="/" className="flex items-center min-w-0">
             <img 
               src="/lovable-uploads/ef07cefb-61d9-43a4-9a0a-d7fea8f18b3f.png" 
               alt="Relish Physiotherapy Logo" 
-              className="h-12 w-12 mr-3 rounded-full object-cover border-2 border-yellow-400 shadow-md" 
+              className="h-10 w-10 sm:h-12 sm:w-12 mr-2 sm:mr-3 rounded-full object-cover border-2 border-yellow-400 shadow-md flex-shrink-0" 
             />
-            <span className="text-xl font-semibold text-relish-600">Relish Physiotherapy & Wellness Centre</span>
+            <span className="text-sm sm:text-lg lg:text-xl font-semibold text-relish-600 truncate">
+              <span className="hidden sm:inline">Relish Physiotherapy & Wellness Centre</span>
+              <span className="sm:hidden">Relish Physio</span>
+            </span>
           </NavLink>
         </div>
 
@@ -40,7 +44,7 @@ const Navbar = () => {
               to={link.path}
               className={({ isActive }) =>
                 cn(
-                  "text-base font-medium transition-colors hover:text-relish-600",
+                  "text-base font-medium transition-colors hover:text-relish-600 whitespace-nowrap",
                   isActive ? "text-relish-600" : "text-muted-foreground"
                 )
               }
@@ -49,12 +53,12 @@ const Navbar = () => {
             </NavLink>
           ))}
           <a href="https://wa.me/7601026596">
-            <Button className="bg-relish-600 hover:bg-relish-700">Book Appointment</Button>
+            <Button className="bg-relish-600 hover:bg-relish-700 whitespace-nowrap">Book Appointment</Button>
           </a>
         </nav>
 
         {/* Mobile Menu Button */}
-        <div className="md:hidden">
+        <div className="md:hidden flex-shrink-0">
           <Button
             variant="ghost"
             size="icon"
@@ -100,3 +104,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
