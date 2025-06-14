@@ -31,20 +31,13 @@ const services = [
   },
   {
     id: 5,
-    title: "Physiotherapy Consultation",
-    description: "Our comprehensive physiotherapy consultation begins with a thorough assessment of your condition, medical history, and specific concerns. Dr. Mohammed Hamid Ali, BPT conducts detailed evaluations to understand your symptoms, functional limitations, and treatment goals. During the consultation, we explain your condition, discuss treatment options, and develop a personalized care plan tailored to your needs. This collaborative approach ensures you're fully informed about your treatment journey.",
+    title: "Consultation & Rehabilitation",
+    description: "Our comprehensive consultation and rehabilitation services begin with a thorough assessment of your condition, medical history, and goals. Based on this evaluation, we develop a personalized treatment plan that may include a combination of hands-on techniques, therapeutic exercises, and advice on lifestyle modifications. We regularly reassess your progress and adjust your treatment plan to ensure optimal outcomes and help you return to your daily activities with confidence.",
     imageSrc: "/lovable-uploads/76ddcb78-11f7-48c7-87c4-7a52129bc074.png",
     altText: "Professional physiotherapy consultation with doctor and patient discussing treatment plan"
   },
   {
     id: 6,
-    title: "Consultation & Rehabilitation",
-    description: "Our comprehensive consultation and rehabilitation services begin with a thorough assessment of your condition, medical history, and goals. Based on this evaluation, we develop a personalized treatment plan that may include a combination of hands-on techniques, therapeutic exercises, and advice on lifestyle modifications. We regularly reassess your progress and adjust your treatment plan to ensure optimal outcomes and help you return to your daily activities with confidence.",
-    imageSrc: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&auto=format&fit=crop&w=750&q=80",
-    altText: "Physiotherapist conducting consultation and assessment with patient"
-  },
-  {
-    id: 7,
     title: "Manual Therapy",
     description: "Manual therapy encompasses a range of hands-on techniques performed by our skilled physiotherapists to treat musculoskeletal pain and disability. These may include joint mobilization, manipulation, soft tissue mobilization, and therapeutic massage. By applying controlled forces to joints and soft tissues, we help improve mobility, reduce pain, and enhance overall function, often achieving results where other approaches have been unsuccessful.",
     imageSrc: "/lovable-uploads/6e67ff43-9972-4849-86a3-27617fcf9b7e.png",
