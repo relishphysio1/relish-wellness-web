@@ -103,7 +103,7 @@ const Navbar = () => {
                 }
               >
                 {link.title}
-              </Navigation>
+              </NavLink>
             ))}
             <Button 
               className="bg-relish-600 hover:bg-relish-700 w-full"
