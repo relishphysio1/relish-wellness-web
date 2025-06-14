@@ -19,6 +19,13 @@ const Navbar = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
+  const scrollToAppointment = () => {
+    const appointmentSection = document.getElementById('appointment');
+    if (appointmentSection) {
+      appointmentSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between px-4">
@@ -53,11 +60,13 @@ const Navbar = () => {
               {link.title}
             </NavLink>
           ))}
-          <a href="https://wa.me/7601026596">
-            <Button size="sm" className="bg-relish-600 hover:bg-relish-700 whitespace-nowrap text-xs lg:text-sm">
-              Book Appointment
-            </Button>
-          </a>
+          <Button 
+            size="sm" 
+            className="bg-relish-600 hover:bg-relish-700 whitespace-nowrap text-xs lg:text-sm"
+            onClick={scrollToAppointment}
+          >
+            Book Appointment
+          </Button>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -94,11 +103,17 @@ const Navbar = () => {
                 }
               >
                 {link.title}
-              </NavLink>
+              </Navigation>
             ))}
-            <a href="https://wa.me/7601026596" onClick={() => setIsMobileMenuOpen(false)}>
-              <Button className="bg-relish-600 hover:bg-relish-700 w-full">Book Appointment</Button>
-            </a>
+            <Button 
+              className="bg-relish-600 hover:bg-relish-700 w-full"
+              onClick={() => {
+                scrollToAppointment();
+                setIsMobileMenuOpen(false);
+              }}
+            >
+              Book Appointment
+            </Button>
           </nav>
         </div>
       )}

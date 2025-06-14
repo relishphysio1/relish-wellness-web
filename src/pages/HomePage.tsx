@@ -32,6 +32,13 @@ const HomePage = () => {
     },
   ];
 
+  const scrollToAppointment = () => {
+    const appointmentSection = document.getElementById('appointment');
+    if (appointmentSection) {
+      appointmentSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div>
       {/* Hero Section */}
@@ -69,11 +76,13 @@ const HomePage = () => {
               </div>
               
               <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start pt-2">
-                <a href="https://wa.me/7601026596">
-                  <Button size="lg" className="bg-gradient-to-r from-relish-600 to-relish-700 hover:from-relish-700 hover:to-relish-800 text-white px-6 py-3 text-base font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 w-full sm:w-auto">
-                    Book Appointment
-                  </Button>
-                </a>
+                <Button 
+                  size="lg" 
+                  className="bg-gradient-to-r from-relish-600 to-relish-700 hover:from-relish-700 hover:to-relish-800 text-white px-6 py-3 text-base font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 w-full sm:w-auto"
+                  onClick={scrollToAppointment}
+                >
+                  Book Appointment
+                </Button>
                 <Link to="/services">
                   <Button variant="outline" size="lg" className="border-2 border-relish-600 text-relish-600 hover:bg-relish-50 px-6 py-3 text-base font-semibold w-full sm:w-auto">
                     Explore Services
