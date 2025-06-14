@@ -89,4 +89,9 @@
   .card-shadow {
     @apply shadow-lg shadow-gray-200/50 hover:shadow-xl hover:shadow-gray-200/60 transition-shadow duration-300;
   }
+
+  .logo-circular {
+    @apply rounded-full object-cover border-2 border-yellow-400 shadow-md;
+    aspect-ratio: 1;
+  }
 }
