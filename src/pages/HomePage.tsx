@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
@@ -41,7 +42,7 @@ const HomePage = () => {
             <div className="order-2 lg:order-1">
               <div className="flex items-center mb-6">
                 <img 
-                  src="/lovable-uploads/7b58bcad-171e-4d7d-a569-8269c66ed030.png" 
+                  src="/lovable-uploads/ef07cefb-61d9-43a4-9a0a-d7fea8f18b3f.png" 
                   alt="Relish Physiotherapy Logo" 
                   className="h-20 mr-3" 
                 />

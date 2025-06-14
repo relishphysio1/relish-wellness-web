@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className="flex items-center">
           <NavLink to="/" className="flex items-center">
             <img 
-              src="/lovable-uploads/7b58bcad-171e-4d7d-a569-8269c66ed030.png" 
+              src="/lovable-uploads/ef07cefb-61d9-43a4-9a0a-d7fea8f18b3f.png" 
               alt="Relish Physiotherapy Logo" 
               className="h-12 w-12 mr-3 rounded-full object-cover border-2 border-yellow-400 shadow-md" 
             />
