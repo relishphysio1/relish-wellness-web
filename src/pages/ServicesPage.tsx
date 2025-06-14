@@ -26,7 +26,7 @@ const services = [
     id: 4,
     title: "TENS Therapy",
     description: "Transcutaneous Electrical Nerve Stimulation (TENS) therapy uses low-voltage electrical currents to provide pain relief. The small electrical pulses, delivered through electrodes placed on the skin, work by either blocking pain signals from reaching the brain or by stimulating the production of endorphins, your body's natural painkillers. TENS therapy is particularly useful for both acute and chronic pain management with minimal side effects.",
-    imageSrc: "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&auto=format&fit=crop&w=750&q=80",
+    imageSrc: "/lovable-uploads/5ca6a65b-20db-497a-9cb4-8d50de4191ef.png",
     altText: "TENS therapy electrodes applied to patient's back with unit visible"
   },
   {

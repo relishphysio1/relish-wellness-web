@@ -25,10 +25,10 @@ const HomePage = () => {
     },
     {
       id: 3,
-      title: "Consultation & Rehabilitation",
-      description: "Comprehensive assessment and personalized treatment plans for recovery and prevention.",
-      imageSrc: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=750&q=80",
-      altText: "Physiotherapist conducting consultation and assessment, checking patient's posture and range of motion"
+      title: "TENS Therapy",
+      description: "Low-voltage electrical currents delivered through electrodes to provide effective pain relief.",
+      imageSrc: "/lovable-uploads/5ca6a65b-20db-497a-9cb4-8d50de4191ef.png",
+      altText: "TENS therapy electrodes applied to patient's back with unit visible"
     },
   ];
 
