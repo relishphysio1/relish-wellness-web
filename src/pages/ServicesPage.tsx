@@ -1,3 +1,4 @@
+
 import ServiceCard from "@/components/ServiceCard";
 
 const services = [
@@ -40,8 +41,8 @@ const services = [
     id: 6,
     title: "Manual Therapy",
     description: "Manual therapy encompasses a range of hands-on techniques performed by our skilled physiotherapists to treat musculoskeletal pain and disability. These may include joint mobilization, manipulation, soft tissue mobilization, and therapeutic massage. By applying controlled forces to joints and soft tissues, we help improve mobility, reduce pain, and enhance overall function, often achieving results where other approaches have been unsuccessful.",
-    imageSrc: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&auto=format&fit=crop&w=750&q=80",
-    altText: "Physiotherapist performing manual therapy and joint mobilization on patient"
+    imageSrc: "/lovable-uploads/6e67ff43-9972-4849-86a3-27617fcf9b7e.png",
+    altText: "Physiotherapist performing manual therapy and hands-on treatment on patient"
   },
 ];
 

@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import ReviewCard from "@/components/ReviewCard";
 import { Star } from "lucide-react";
@@ -57,15 +56,13 @@ const ReviewsPage = () => {
     { id: 40, patientInitials: "AA", patientName: "Al Ameen", rating: 5, comment: "Dr Hamid is one of the best physiotherapists in Hyderabad. His knowledge, communication and skillset are top notch. In the consultation itself I felt half recovered. He also follows and implements covid-19 protocols in his clinic. Mask is compulsory for treatment and he performs therapy by wearing gloves. There's even a individual plastic sheet on the treatment bed to prevent contamination.", date: "December 15, 2021" },
   ];
 
-  const [filterRating, setFilterRating] = useState<number | null>(null);
   const [searchTerm, setSearchTerm] = useState("");
 
-  // Filter reviews based on rating and search term
+  // Filter reviews based on search term only
   const filteredReviews = allReviews.filter((review) => {
-    const matchesRating = filterRating === null || review.rating === filterRating;
     const matchesSearch = review.comment.toLowerCase().includes(searchTerm.toLowerCase()) || 
                           review.patientName.toLowerCase().includes(searchTerm.toLowerCase());
-    return matchesRating && matchesSearch;
+    return matchesSearch;
   });
 
   return (
@@ -79,7 +76,7 @@ const ReviewsPage = () => {
               Read what our patients have to say about their experiences at Relish Physiotherapy and Wellness Centre.
             </p>
             
-            <div className="flex flex-col sm:flex-row justify-center gap-4 mt-8">
+            <div className="flex justify-center mt-8">
               <div className="relative">
                 <input
                   type="text"
@@ -97,24 +94,6 @@ const ReviewsPage = () => {
                 >
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                 </svg>
-              </div>
-              
-              <div className="flex justify-center gap-2">
-                <button 
-                  onClick={() => setFilterRating(null)} 
-                  className={`px-3 py-1 rounded-md border ${filterRating === null ? 'bg-relish-600 text-white border-relish-600' : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-100'}`}
-                >
-                  All
-                </button>
-                {[5, 4, 3].map((rating) => (
-                  <button 
-                    key={rating}
-                    onClick={() => setFilterRating(rating)}
-                    className={`px-3 py-1 rounded-md border flex items-center ${filterRating === rating ? 'bg-relish-600 text-white border-relish-600' : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-100'}`}
-                  >
-                    {rating} <Star className="w-4 h-4 ml-1 fill-current" />
-                  </button>
-                ))}
               </div>
             </div>
           </div>
@@ -138,12 +117,12 @@ const ReviewsPage = () => {
             </div>
           ) : (
             <div className="text-center py-12">
-              <p className="text-xl text-gray-600">No reviews found matching your criteria.</p>
+              <p className="text-xl text-gray-600">No reviews found matching your search.</p>
               <button 
-                onClick={() => {setFilterRating(null); setSearchTerm("");}}
+                onClick={() => setSearchTerm("")}
                 className="mt-4 text-relish-600 hover:text-relish-700 underline font-medium"
               >
-                Clear filters
+                Clear search
               </button>
             </div>
           )}
