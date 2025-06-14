@@ -33,7 +33,7 @@ const services = [
     id: 5,
     title: "Consultation & Rehabilitation",
     description: "Our comprehensive consultation and rehabilitation services begin with a thorough assessment of your condition, medical history, and goals. Based on this evaluation, we develop a personalized treatment plan that may include a combination of hands-on techniques, therapeutic exercises, and advice on lifestyle modifications. We regularly reassess your progress and adjust your treatment plan to ensure optimal outcomes and help you return to your daily activities with confidence.",
-    imageSrc: "/lovable-uploads/76ddcb78-11f7-48c7-87c4-7a52129bc074.png",
+    imageSrc: "/lovable-uploads/7b58bcad-171e-4d7d-a569-8269c66ed030.png",
     altText: "Professional physiotherapy consultation with doctor and patient discussing treatment plan"
   },
   {
