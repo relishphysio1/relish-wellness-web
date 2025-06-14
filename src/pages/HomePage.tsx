@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
@@ -26,10 +25,10 @@ const HomePage = () => {
     },
     {
       id: 3,
-      title: "TENS Therapy",
-      description: "Low-voltage electrical currents delivered through electrodes to provide effective pain relief.",
-      imageSrc: "/lovable-uploads/5ca6a65b-20db-497a-9cb4-8d50de4191ef.png",
-      altText: "TENS therapy electrodes applied to patient's back with unit visible"
+      title: "Exercise Therapy",
+      description: "Custom-designed exercise programs to improve mobility, strength, coordination, and overall function.",
+      imageSrc: "/lovable-uploads/0651f71a-9e1c-4cc0-ac06-d637f4c03ad3.png",
+      altText: "Patient performing exercise therapy with physiotherapist guidance using resistance bands"
     },
   ];
 

@@ -19,7 +19,7 @@ const services = [
     id: 3,
     title: "Exercise Therapy",
     description: "Our exercise therapy programs are custom-designed to address your specific condition and goals. Through a series of targeted movements and activities, we help improve your mobility, strength, coordination, and overall function. Whether recovering from an injury, managing a chronic condition, or seeking to enhance performance, our expert physiotherapists will guide you through appropriate exercises and progressively adjust your program as you improve.",
-    imageSrc: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=750&q=80",
+    imageSrc: "/lovable-uploads/0651f71a-9e1c-4cc0-ac06-d637f4c03ad3.png",
     altText: "Patient performing exercise therapy with physiotherapist guidance using resistance bands"
   },
   {
