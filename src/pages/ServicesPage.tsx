@@ -12,8 +12,8 @@ const services = [
     id: 2,
     title: "Interferential Therapy",
     description: "Interferential therapy utilizes two medium-frequency electrical currents that intersect within the tissues to create a low-frequency current at the point of intersection. This therapeutic approach helps to reduce pain, decrease inflammation, stimulate muscle, and promote healing. It's gentle on sensitive tissues and effective for treating a wide range of conditions, from acute injuries to chronic pain syndromes.",
-    imageSrc: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=750&q=80",
-    altText: "Physiotherapist applying interferential therapy electrodes to patient's back"
+    imageSrc: "/lovable-uploads/c220c26b-4bc1-4d9d-98b4-337454da8afb.png",
+    altText: "Physiotherapist applying interferential therapy electrodes to patient's leg with visible wires and equipment"
   },
   {
     id: 3,

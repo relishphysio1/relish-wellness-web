@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
@@ -18,10 +19,10 @@ const HomePage = () => {
     },
     {
       id: 2,
-      title: "Exercise Therapy",
-      description: "Customized exercise programs designed to improve mobility, strength, and overall function.",
-      imageSrc: "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=750&q=80",
-      altText: "Patient performing guided exercise therapy with physiotherapist using resistance bands and exercise equipment"
+      title: "Interferential Therapy",
+      description: "Two medium-frequency electrical currents that intersect to create therapeutic low-frequency stimulation.",
+      imageSrc: "/lovable-uploads/c220c26b-4bc1-4d9d-98b4-337454da8afb.png",
+      altText: "Physiotherapist applying interferential therapy electrodes to patient's leg with visible wires and equipment"
     },
     {
       id: 3,
