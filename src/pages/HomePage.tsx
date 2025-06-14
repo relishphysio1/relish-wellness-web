@@ -41,7 +41,7 @@ const HomePage = () => {
             <div className="order-2 lg:order-1">
               <div className="flex items-center mb-6">
                 <img 
-                  src="/lovable-uploads/ee3855e5-2c6a-4876-967a-4effedca1c2f.png" 
+                  src="/lovable-uploads/7b58bcad-171e-4d7d-a569-8269c66ed030.png" 
                   alt="Relish Physiotherapy Logo" 
                   className="h-20 mr-3" 
                 />

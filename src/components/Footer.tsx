@@ -1,4 +1,3 @@
-
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { MapPin, Phone, MessageSquare } from "lucide-react";
@@ -11,7 +10,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center mb-4">
               <img 
-                src="/lovable-uploads/aeedb6ef-0421-4a9b-a1c5-4c10e0e3b97d.png" 
+                src="/lovable-uploads/7b58bcad-171e-4d7d-a569-8269c66ed030.png" 
                 alt="Relish Physiotherapy Logo" 
                 className="h-16 w-16 mr-3 rounded-full object-cover border-2 border-yellow-400 shadow-md" 
               />
