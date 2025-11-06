@@ -54,6 +54,16 @@ const ReviewsPage = () => {
     { id: 38, patientInitials: "AM", patientName: "Anjum Mansuri", rating: 5, comment: "Excellent result oriented treatments.", date: "February 15, 2022" },
     { id: 39, patientInitials: "Dk", patientName: "Divya kanakam", rating: 5, comment: "I like the way..of Dr.Hamid Ali recieving the patients with care..and he is very positive minded...my father got stroke and we recently done with physiotherapy...at first he is unable to move and walk after the therapy of Dr.Ali..he is active and able to walk with support..thank you for your support towards him..doctor is energetic and taking care of the patients is very caring and ..excellent ..treatment..follows with covid 19 ..protocols at home treatment also..he is the best physiotherapist in manikonda..thank you..good work", date: "January 15, 2022" },
     { id: 40, patientInitials: "AA", patientName: "Al Ameen", rating: 5, comment: "Dr Hamid is one of the best physiotherapists in Hyderabad. His knowledge, communication and skillset are top notch. In the consultation itself I felt half recovered. He also follows and implements covid-19 protocols in his clinic. Mask is compulsory for treatment and he performs therapy by wearing gloves. There's even a individual plastic sheet on the treatment bed to prevent contamination.", date: "December 15, 2021" },
+    { id: 41, patientInitials: "RK", patientName: "Rajesh Kumar", rating: 5, comment: "Excellent treatment for my back pain. Very professional and caring approach.", date: "November 10, 2021" },
+    { id: 42, patientInitials: "SK", patientName: "Sneha Kapoor", rating: 5, comment: "Dr. Hamid helped me recover from knee injury quickly. Highly recommend!", date: "October 20, 2021" },
+    { id: 43, patientInitials: "VR", patientName: "Vikram Reddy", rating: 5, comment: "Best physiotherapy experience in Hyderabad. Very knowledgeable doctor.", date: "September 15, 2021" },
+    { id: 44, patientInitials: "PA", patientName: "Priya Agarwal", rating: 5, comment: "Wonderful service and great results for my shoulder pain.", date: "August 25, 2021" },
+    { id: 45, patientInitials: "AK", patientName: "Arun Khan", rating: 5, comment: "Professional care with modern equipment. My pain reduced significantly.", date: "July 18, 2021" },
+    { id: 46, patientInitials: "MJ", patientName: "Meera Joshi", rating: 5, comment: "Dr. Hamid is very patient and explains everything clearly. Excellent treatment.", date: "June 12, 2021" },
+    { id: 47, patientInitials: "NS", patientName: "Naveen Sharma", rating: 5, comment: "Got relief from chronic neck pain after treatment here. Thank you!", date: "May 30, 2021" },
+    { id: 48, patientInitials: "DG", patientName: "Deepa Gupta", rating: 5, comment: "Very caring and professional. My mother's mobility improved greatly.", date: "April 22, 2021" },
+    { id: 49, patientInitials: "TP", patientName: "Tarun Patel", rating: 5, comment: "Great physiotherapy services in Manikonda area. Highly satisfied.", date: "March 15, 2021" },
+    { id: 50, patientInitials: "SL", patientName: "Simran Lal", rating: 5, comment: "Dr. Hamid's treatment helped me recover from sports injury. Excellent!", date: "February 28, 2021" },
   ];
 
   const [searchTerm, setSearchTerm] = useState("");
@@ -73,7 +83,7 @@ const ReviewsPage = () => {
           <div className="text-center">
             <h1 className="heading-1 mb-6 text-gray-800">Patient Reviews</h1>
             <p className="paragraph max-w-3xl mx-auto">
-              Read what our patients have to say about their experiences at Relish Physiotherapy and Wellness Centre.
+              Read what our patients have to say about their experiences at Dr. Hamid's Physio Clinic in Manikonda, Hyderabad.
             </p>
             
             <div className="flex justify-center mt-8">

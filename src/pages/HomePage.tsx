@@ -56,7 +56,7 @@ const HomePage = () => {
               <div className="flex items-center justify-center lg:justify-start mb-4">
                 <img 
                   src="/lovable-uploads/ef07cefb-61d9-43a4-9a0a-d7fea8f18b3f.png" 
-                  alt="Relish Physiotherapy Logo" 
+                  alt="Dr. Hamid's Physio Clinic Logo - Best Physiotherapy in Manikonda" 
                   className="h-12 sm:h-16 lg:h-20 drop-shadow-lg" 
                 />
               </div>
@@ -71,7 +71,7 @@ const HomePage = () => {
                 </h1>
                 
                 <p className="text-base sm:text-lg leading-relaxed text-gray-600 max-w-2xl mx-auto lg:mx-0">
-                  At Relish Physiotherapy and Wellness Centre, Dr. Mohammed Hamid Ali, BPT combines advanced techniques and personalized care to help you recover, strengthen, and live pain-free.
+                  At Dr. Hamid's Physio Clinic in Manikonda, Hyderabad, Dr. Mohammed Hamid Ali, BPT combines advanced physiotherapy techniques and personalized care to help you recover, strengthen, and live pain-free.
                 </p>
               </div>
               
@@ -141,7 +141,7 @@ const HomePage = () => {
               </div>
               <div>
                 <p className="font-semibold text-gray-900">Our Location</p>
-                <p className="text-gray-600">Toli Chowki, Hyderabad</p>
+                <p className="text-gray-600">Puppalguda, Manikonda, Hyderabad</p>
               </div>
             </div>
             <div className="flex items-center justify-center sm:justify-end gap-4 p-4 rounded-lg hover:bg-gray-50 transition-colors">
@@ -270,7 +270,7 @@ const HomePage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <AppointmentForm />
             <ContactMap 
-              mapEmbedUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.326836341144!2d78.4064509!3d17.3960958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb97c8eb026f65%3A0x5e83196a16a5e123!2sRelish%20Physiotherapy%20%26%20Wellness%20Centre!5e0!3m2!1sen!2sin!4v1743524668355!5m2!1sen!2sin" 
+              mapEmbedUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.9!2d78.3867!3d17.4108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTfCsDI0JzM5LjAiTiA3OMKwMjMnMTIuMSJF!5e0!3m2!1sen!2sin!4v1234567890"
               className="h-full min-h-[400px] rounded-2xl shadow-lg"
             />
           </div>

@@ -54,7 +54,7 @@ const ServicesPage = () => {
           <div className="text-center">
             <h1 className="heading-1 mb-6 text-gray-800">Our Services</h1>
             <p className="paragraph max-w-3xl mx-auto">
-              At Relish Physiotherapy and Wellness Centre, we offer a comprehensive range of evidence-based treatments designed to address various conditions and promote optimal physical health.
+              At Dr. Hamid's Physio Clinic in Manikonda, Hyderabad, we offer a comprehensive range of evidence-based physiotherapy treatments designed to address various conditions and promote optimal physical health.
             </p>
           </div>
         </div>

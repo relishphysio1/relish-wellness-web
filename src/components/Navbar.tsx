@@ -10,6 +10,7 @@ const navLinks = [
   { title: "About", path: "/about" },
   { title: "Services", path: "/services" },
   { title: "Reviews", path: "/reviews" },
+  { title: "Blogs", path: "/blogs" },
 ];
 
 const Navbar = () => {
@@ -33,13 +34,13 @@ const Navbar = () => {
           <NavLink to="/" className="flex items-center min-w-0">
             <img 
               src="/lovable-uploads/ef07cefb-61d9-43a4-9a0a-d7fea8f18b3f.png" 
-              alt="Relish Physiotherapy Logo" 
+              alt="Dr. Hamid's Physio Clinic Logo" 
               className="h-8 w-8 sm:h-10 sm:w-10 mr-2 flex-shrink-0" 
             />
             <span className="text-xs sm:text-sm lg:text-base font-semibold text-relish-600 truncate">
-              <span className="hidden lg:inline">Relish Physiotherapy & Wellness Centre</span>
-              <span className="hidden sm:inline lg:hidden">Relish Physio & Wellness</span>
-              <span className="sm:hidden">Relish Physio</span>
+              <span className="hidden lg:inline">Dr. Hamid's Physio Clinic</span>
+              <span className="hidden sm:inline lg:hidden">Dr. Hamid's Physio</span>
+              <span className="sm:hidden">Dr. Hamid's</span>
             </span>
           </NavLink>
         </div>

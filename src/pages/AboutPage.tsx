@@ -10,7 +10,7 @@ const AboutPage = () => {
         <div className="container px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-display mb-6 text-gray-900">
-              About <span className="bg-gradient-to-r from-relish-600 to-wellness-600 bg-clip-text text-transparent">Relish Physiotherapy</span>
+              About <span className="bg-gradient-to-r from-relish-600 to-wellness-600 bg-clip-text text-transparent">Dr. Hamid's Physio Clinic</span>
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed">
               & Wellness Centre
@@ -25,7 +25,7 @@ const AboutPage = () => {
           <div className="prose prose-lg max-w-none">
             <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12 mb-12">
               <p className="text-lg leading-relaxed text-gray-700 mb-8">
-                <strong>Alhamdulillah</strong>, since our founding in January 2021 by Dr. Hamid Ali, Relish Physiotherapy & Wellness Centre has grown into Tolichowki's trusted destination for compassionate, five-star care. <strong>Subhanallahi wabihamdihi</strong>, our commitment to excellence is reflected in every smile, every success story, and our consistent ⭐⭐⭐⭐⭐ ratings.
+                <strong>Alhamdulillah</strong>, since our founding in January 2021 by Dr. Hamid Ali, Dr. Hamid's Physio Clinic has grown into Manikonda's trusted destination for compassionate, five-star care. Located in Puppalguda near Friends Colony Park, <strong>Subhanallahi wabihamdihi</strong>, our commitment to excellence is reflected in every smile, every success story, and our consistent ⭐⭐⭐⭐⭐ ratings.
               </p>
             </div>
 
