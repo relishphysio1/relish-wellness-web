@@ -2,6 +2,7 @@ import { useParams, Link, Navigate } from "react-router-dom";
 import { Calendar, Clock, User, ArrowLeft } from "lucide-react";
 import { getBlogPost, getRecentPosts } from "@/data/blogPosts";
 import { Button } from "@/components/ui/button";
+import StructuredData from "@/components/StructuredData";
 
 const BlogPostPage = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -14,6 +15,11 @@ const BlogPostPage = () => {
 
   return (
     <div>
+      <StructuredData 
+        type="blog" 
+        pageTitle={`${post.title} | Dr. Hamid's Physio Clinic`}
+        pageDescription={post.excerpt}
+      />
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-relish-100 to-wellness-100 py-12 md:py-16">
         <div className="container">

@@ -45,9 +45,16 @@ const services = [
   },
 ];
 
+import StructuredData from "@/components/StructuredData";
+
 const ServicesPage = () => {
   return (
     <div>
+      <StructuredData 
+        type="service" 
+        pageTitle="Physiotherapy Services in Manikonda | Dr. Hamid's Physio Clinic" 
+        pageDescription="Comprehensive physiotherapy services in Puppalguda, Manikonda, Hyderabad. Ultrasound therapy, TENS, exercise therapy, manual therapy & more by Dr. Hamid."
+      />
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-relish-100 to-wellness-100 py-16 md:py-24">
         <div className="container">

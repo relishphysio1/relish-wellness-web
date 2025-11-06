@@ -1,10 +1,16 @@
 
 import React from "react";
 import { Star, Heart, Users, Award, Target, Lightbulb } from "lucide-react";
+import StructuredData from "@/components/StructuredData";
 
 const AboutPage = () => {
   return (
     <div className="min-h-screen">
+      <StructuredData 
+        type="about" 
+        pageTitle="About Dr. Hamid's Physio Clinic | Best Physiotherapist in Manikonda" 
+        pageDescription="Learn about Dr. Mohammed Hamid Ali, BPT and Dr. Hamid's Physio Clinic in Puppalguda, Manikonda. Expert physiotherapy care since 2021 with 5-star ratings."
+      />
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-relish-50 via-wellness-50 to-blue-50 py-16 md:py-24">
         <div className="container px-4">

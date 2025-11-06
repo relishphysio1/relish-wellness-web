@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import ServiceCard from "@/components/ServiceCard";
 import AppointmentForm from "@/components/AppointmentForm";
 import ContactMap from "@/components/ContactMap";
+import StructuredData from "@/components/StructuredData";
 import { MapPin, Phone, MessageSquare, ArrowDown, Star, Stethoscope } from "lucide-react";
 
 const HomePage = () => {
@@ -41,6 +42,7 @@ const HomePage = () => {
 
   return (
     <div>
+      <StructuredData type="homepage" />
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-blue-50 via-green-50 to-teal-50 pt-8 pb-16 md:pt-16 md:pb-24 overflow-hidden">
         {/* Background Pattern */}
@@ -55,9 +57,9 @@ const HomePage = () => {
             <div className="text-center lg:text-left space-y-6">
               <div className="flex items-center justify-center lg:justify-start mb-4">
                 <img 
-                  src="/lovable-uploads/ef07cefb-61d9-43a4-9a0a-d7fea8f18b3f.png" 
-                  alt="Dr. Hamid's Physio Clinic Logo - Best Physiotherapy in Manikonda" 
-                  className="h-12 sm:h-16 lg:h-20 drop-shadow-lg" 
+                  src="/lovable-uploads/hamid-physio-logo.png" 
+                  alt="Dr. Hamid's Physio Clinic Logo - Best Physiotherapy in Manikonda, Hyderabad" 
+                  className="h-12 sm:h-16 lg:h-20 drop-shadow-lg rounded-full object-cover border-2 border-white/50" 
                 />
               </div>
               
@@ -270,7 +272,7 @@ const HomePage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <AppointmentForm />
             <ContactMap 
-              mapEmbedUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.9!2d78.3867!3d17.4108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTfCsDI0JzM5LjAiTiA3OMKwMjMnMTIuMSJF!5e0!3m2!1sen!2sin!4v1234567890"
+              mapEmbedUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.2!2d78.3892!3d17.4165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9184c7f8c5ed%3A0x123456789!2sFriends%20Colony%20Park%2C%20Puppalguda%2C%20Manikonda%2C%20Hyderabad%2C%20Telangana%20500089!5e0!3m2!1sen!2sin!4v1699000000000!5m2!1sen!2sin"
               className="h-full min-h-[400px] rounded-2xl shadow-lg"
             />
           </div>

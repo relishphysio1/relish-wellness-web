@@ -33,9 +33,9 @@ const Navbar = () => {
         <div className="flex items-center min-w-0 flex-1">
           <NavLink to="/" className="flex items-center min-w-0">
             <img 
-              src="/lovable-uploads/ef07cefb-61d9-43a4-9a0a-d7fea8f18b3f.png" 
-              alt="Dr. Hamid's Physio Clinic Logo" 
-              className="h-8 w-8 sm:h-10 sm:w-10 mr-2 flex-shrink-0" 
+              src="/lovable-uploads/hamid-physio-logo.png" 
+              alt="Dr. Hamid's Physio Clinic - Best Physiotherapy in Manikonda" 
+              className="h-8 w-8 sm:h-10 sm:w-10 mr-2 flex-shrink-0 rounded-full object-cover" 
             />
             <span className="text-xs sm:text-sm lg:text-base font-semibold text-relish-600 truncate">
               <span className="hidden lg:inline">Dr. Hamid's Physio Clinic</span>

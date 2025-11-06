@@ -3,9 +3,16 @@ import { Calendar, Clock, User, ArrowRight } from "lucide-react";
 import { blogPosts } from "@/data/blogPosts";
 import { Button } from "@/components/ui/button";
 
+import StructuredData from "@/components/StructuredData";
+
 const BlogsPage = () => {
   return (
     <div>
+      <StructuredData 
+        type="blog" 
+        pageTitle="Health & Wellness Blog | Dr. Hamid's Physio Clinic Manikonda" 
+        pageDescription="Expert physiotherapy advice and health tips from Dr. Hamid's Physio Clinic in Manikonda, Hyderabad. Learn about pain management, rehabilitation, and wellness."
+      />
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-relish-100 to-wellness-100 py-16 md:py-24">
         <div className="container">

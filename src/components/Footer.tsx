@@ -11,8 +11,8 @@ const Footer = () => {
           <div>
             <div className="flex items-center mb-4">
               <img 
-                src="/lovable-uploads/ef07cefb-61d9-43a4-9a0a-d7fea8f18b3f.png" 
-                alt="Dr. Hamid's Physio Clinic Logo" 
+                src="/lovable-uploads/hamid-physio-logo.png" 
+                alt="Dr. Hamid's Physio Clinic - Physiotherapy in Manikonda, Hyderabad" 
                 className="h-16 w-16 mr-3 rounded-full object-cover border-2 border-yellow-400 shadow-md" 
               />
               <span className="text-lg font-semibold text-relish-600">Dr. Hamid's Physio Clinic</span>
@@ -69,7 +69,9 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <MessageSquare className="w-5 h-5 text-relish-600 mr-3" />
-                <span className="text-muted-foreground">contact@relishphysio.com</span>
+                <a href="mailto:hamid.physio324@gmail.com" className="text-muted-foreground hover:text-relish-600 transition-colors">
+                  hamid.physio324@gmail.com
+                </a>
               </li>
             </ul>
           </div>

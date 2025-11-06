@@ -1,6 +1,7 @@
 import { useState } from "react";
 import ReviewCard from "@/components/ReviewCard";
 import { Star } from "lucide-react";
+import StructuredData from "@/components/StructuredData";
 
 interface Review {
   id: number;
@@ -77,6 +78,11 @@ const ReviewsPage = () => {
 
   return (
     <div>
+      <StructuredData 
+        type="about" 
+        pageTitle="Patient Reviews | Dr. Hamid's Physio Clinic Manikonda" 
+        pageDescription="Read 50+ genuine reviews from patients treated at Dr. Hamid's Physio Clinic in Manikonda, Hyderabad. 5-star rated physiotherapy services."
+      />
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-relish-100 to-wellness-100 py-16 md:py-24">
         <div className="container">
