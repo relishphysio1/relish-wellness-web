@@ -8,7 +8,7 @@ const AppointmentForm = () => {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
-  const phoneNumber = "+917601026596"; // Updated to the correct WhatsApp number
+  const phoneNumber = "917601026596"; // WhatsApp number without + sign
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();

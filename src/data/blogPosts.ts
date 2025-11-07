@@ -23,42 +23,41 @@ export const blogPosts: BlogPost[] = [
     imageUrl: "/lovable-uploads/7b58bcad-171e-4d7d-a569-8269c66ed030.png",
     readTime: "8 min read",
     content: `
-## Understanding the Difference Between Yoga and Physical Therapy
+<h2>Understanding the Difference Between Yoga and Physical Therapy</h2>
+<p>Welcome to Dr. Hamid's Physio Clinic! Today, we'll explore the key variations and similarities between two important aspects of healthcare: Physical Therapy and Yoga.</p>
 
-Welcome to Dr. Hamid's Physio Clinic! Today, we'll explore the key variations and similarities between two important aspects of healthcare: Physical Therapy and Yoga.
+<h3>The Rise of Yoga</h3>
+<p>Yoga, involving spiritual, mental, and physical disciplines, is one of the six 'Astika' (orthodox) schools of Indian philosophical traditions. The exact origins of yoga remain somewhat obscure, but researchers believe that yoga — a word whose root in Sanskrit means "unity" or "union" — began in India over 5,000 years ago.</p>
 
-### The Rise of Yoga
+<p>Yoga's relationship with the West began in the 19th century. The fitness and exercise boom of the 1970s, combined with great interest in spirituality and physical fitness, catapulted yoga into a modern cultural phenomenon. Today, yoga is a multi-billion dollar industry with millions of practitioners worldwide.</p>
 
-Yoga, involving spiritual, mental, and physical disciplines, is one of the six 'Astika' (orthodox) schools of Indian philosophical traditions. The exact origins of yoga remain somewhat obscure, but researchers believe that yoga — a word whose root in Sanskrit means "unity" or "union" — began in India over 5,000 years ago.
+<h3>How Does Physiotherapy Compare?</h3>
+<p>Physiotherapy, on the other hand, is a well-established practice backed by research, data, and proven techniques performed by trained physiotherapists. It strives to regain, promote, and maintain well-being through physical examination, diagnosis, prognosis, patient education, physical intervention, rehabilitation, disease prevention, and health promotion.</p>
 
-Yoga's relationship with the West began in the 19th century. The fitness and exercise boom of the 1970s, combined with great interest in spirituality and physical fitness, catapulted yoga into a modern cultural phenomenon. Today, yoga is a multi-billion dollar industry with millions of practitioners worldwide.
+<h3>Key Differences</h3>
+<p>While both yoga and physical therapy may appear similar in terms of exercise, there are crucial distinctions:</p>
 
-### How Does Physiotherapy Compare?
+<p><strong>Yoga:</strong></p>
+<ul>
+  <li>Primarily focuses on muscle stretching and joint flexibility</li>
+  <li>Serves as a source of general fitness and meditation</li>
+  <li>Promotes psychological stress relief and harmony</li>
+  <li>Limited research as a form of medical treatment</li>
+</ul>
 
-Physiotherapy, on the other hand, is a well-established practice backed by research, data, and proven techniques performed by trained physiotherapists. It strives to regain, promote, and maintain well-being through physical examination, diagnosis, prognosis, patient education, physical intervention, rehabilitation, disease prevention, and health promotion.
+<p><strong>Physical Therapy:</strong></p>
+<ul>
+  <li>Provides structured, evidence-based protocols</li>
+  <li>Administered without medications or surgery</li>
+  <li>Offers sustainable recovery strategies</li>
+  <li>Backed by extensive research and clinical evidence</li>
+  <li>Focuses on specific medical conditions and rehabilitation</li>
+</ul>
 
-### Key Differences
+<h3>The Verdict</h3>
+<p>Both yoga and physiotherapy are respectable in their own right. Despite sharing some similarities in stretching and range of motion exercises, physiotherapy offers a well-established, research-backed, and holistic approach specifically designed for treating injuries and medical conditions.</p>
 
-While both yoga and physical therapy may appear similar in terms of exercise, there are crucial distinctions:
-
-**Yoga:**
-- Primarily focuses on muscle stretching and joint flexibility
-- Serves as a source of general fitness and meditation
-- Promotes psychological stress relief and harmony
-- Limited research as a form of medical treatment
-
-**Physical Therapy:**
-- Provides structured, evidence-based protocols
-- Administered without medications or surgery
-- Offers sustainable recovery strategies
-- Backed by extensive research and clinical evidence
-- Focuses on specific medical conditions and rehabilitation
-
-### The Verdict
-
-Both yoga and physiotherapy are respectable in their own right. Despite sharing some similarities in stretching and range of motion exercises, physiotherapy offers a well-established, research-backed, and holistic approach specifically designed for treating injuries and medical conditions.
-
-If you're dealing with pain, injury, or a specific medical condition, consulting with a qualified physiotherapist like Dr. Hamid ensures you receive targeted, evidence-based treatment for optimal recovery.
+<p>If you're dealing with pain, injury, or a specific medical condition, consulting with a qualified physiotherapist like Dr. Hamid ensures you receive targeted, evidence-based treatment for optimal recovery.</p>
     `
   },
   {
@@ -72,49 +71,45 @@ If you're dealing with pain, injury, or a specific medical condition, consulting
     imageUrl: "/lovable-uploads/6e67ff43-9972-4849-86a3-27617fcf9b7e.png",
     readTime: "10 min read",
     content: `
-## Who Should Be Your First Stop for Musculoskeletal Pain?
+<h2>Who Should Be Your First Stop for Musculoskeletal Pain?</h2>
+<p>Welcome back to Dr. Hamid's Physio Clinic! Today we're addressing an important question: When experiencing musculoskeletal pain, should you see a GP or go directly to a physiotherapist?</p>
 
-Welcome back to Dr. Hamid's Physio Clinic! Today we're addressing an important question: When experiencing musculoskeletal pain, should you see a GP or go directly to a physiotherapist?
+<h3>The Growing Problem of Musculoskeletal Conditions</h3>
+<p>Due to ever-increasing workloads, our bodies face constant stress. We push ourselves to fulfill commitments while taking inadequate care of our bodies, resulting in musculoskeletal (MSK) conditions.</p>
 
-### The Growing Problem of Musculoskeletal Conditions
+<p>According to the World Health Organization (WHO), MSK conditions are the <strong>leading cause of disability worldwide</strong>, with low back pain being the single leading cause of disability globally. These conditions significantly limit mobility and dexterity, leading to early retirement, reduced wealth accumulation, and decreased ability to participate in social roles.</p>
 
-Due to ever-increasing workloads, our bodies face constant stress. We push ourselves to fulfill commitments while taking inadequate care of our bodies, resulting in musculoskeletal (MSK) conditions.
+<h3>What Are MSK Conditions?</h3>
+<p>Musculoskeletal conditions comprise over 150 diagnoses affecting the locomotor system — muscles, bones, joints, and associated tissues like tendons and ligaments. These range from acute conditions (fractures, sprains, strains) to chronic conditions causing ongoing pain and disability.</p>
 
-According to the World Health Organization (WHO), MSK conditions are the **leading cause of disability worldwide**, with low back pain being the single leading cause of disability globally. These conditions significantly limit mobility and dexterity, leading to early retirement, reduced wealth accumulation, and decreased ability to participate in social roles.
+<p><strong>MSK conditions affect:</strong></p>
+<ol>
+  <li><strong>Joints:</strong> Osteoarthritis, Rheumatoid Arthritis, Psoriatic Arthritis, Gout, Ankylosing Spondylitis</li>
+  <li><strong>Bones:</strong> Osteoporosis, Osteopenia, fragility fractures, traumatic fractures</li>
+  <li><strong>Muscles:</strong> Rotator cuff tears, muscle strains, cramps, myalgias</li>
+  <li><strong>Spine:</strong> Neck and back problems</li>
+</ol>
 
-### What Are MSK Conditions?
+<h3>Why See a Physiotherapist First?</h3>
+<p>While GPs are trained to diagnose and treat a wide range of disorders, they often must refer MSK patients to specialists — frequently to physiotherapists. Research shows that individuals who don't consult a physiotherapist first spend thousands of dollars unnecessarily on treatments like MRIs and medications that may not address the root cause.</p>
 
-Musculoskeletal conditions comprise over 150 diagnoses affecting the locomotor system — muscles, bones, joints, and associated tissues like tendons and ligaments. These range from acute conditions (fractures, sprains, strains) to chronic conditions causing ongoing pain and disability.
+<p><strong>Benefits of Consulting a Physiotherapist First:</strong></p>
+<ul>
+  <li><strong>Specialized Expertise:</strong> Physiotherapists are specifically trained in MSK conditions</li>
+  <li><strong>Cost-Effective:</strong> Reduces unnecessary tests and treatments</li>
+  <li><strong>Time-Saving:</strong> Gets you direct access to specialized care</li>
+  <li><strong>Comprehensive Treatment:</strong> Addresses the root cause, not just symptoms</li>
+  <li><strong>No Side Effects:</strong> Treatment without medications or surgery</li>
+  <li><strong>Sustainable Results:</strong> Learn self-management strategies for long-term health</li>
+</ul>
 
-MSK conditions affect:
+<h3>The Changing Healthcare Landscape</h3>
+<p>Many national and international healthcare organizations are recognizing this important factor. They're making crucial changes to allow easier access to physiotherapists, which also decreases GP caseloads and allows doctors to focus on patients who need them most — those with diabetes, hypertension, infections, metabolic disorders, and other systemic conditions.</p>
 
-1. **Joints:** Osteoarthritis, Rheumatoid Arthritis, Psoriatic Arthritis, Gout, Ankylosing Spondylitis
-2. **Bones:** Osteoporosis, Osteopenia, fragility fractures, traumatic fractures
-3. **Muscles:** Rotator cuff tears, muscle strains, cramps, myalgias
-4. **Spine:** Neck and back problems
+<h3>Making the Right Choice</h3>
+<p>When you experience musculoskeletal pain, going directly to a qualified physiotherapist at Dr. Hamid's Physio Clinic not only saves time and money but ensures you receive specific, targeted treatment with proper attention to your condition.</p>
 
-### Why See a Physiotherapist First?
-
-While GPs are trained to diagnose and treat a wide range of disorders, they often must refer MSK patients to specialists — frequently to physiotherapists. Research shows that individuals who don't consult a physiotherapist first spend thousands of dollars unnecessarily on treatments like MRIs and medications that may not address the root cause.
-
-**Benefits of Consulting a Physiotherapist First:**
-
-- **Specialized Expertise:** Physiotherapists are specifically trained in MSK conditions
-- **Cost-Effective:** Reduces unnecessary tests and treatments
-- **Time-Saving:** Gets you direct access to specialized care
-- **Comprehensive Treatment:** Addresses the root cause, not just symptoms
-- **No Side Effects:** Treatment without medications or surgery
-- **Sustainable Results:** Learn self-management strategies for long-term health
-
-### The Changing Healthcare Landscape
-
-Many national and international healthcare organizations are recognizing this important factor. They're making crucial changes to allow easier access to physiotherapists, which also decreases GP caseloads and allows doctors to focus on patients who need them most — those with diabetes, hypertension, infections, metabolic disorders, and other systemic conditions.
-
-### Making the Right Choice
-
-When you experience musculoskeletal pain, going directly to a qualified physiotherapist at Dr. Hamid's Physio Clinic not only saves time and money but ensures you receive specific, targeted treatment with proper attention to your condition.
-
-Remember: The right specialist at the right time makes all the difference in your recovery journey.
+<p><strong>Remember: The right specialist at the right time makes all the difference in your recovery journey.</strong></p>
     `
   },
   {
@@ -128,87 +123,117 @@ Remember: The right specialist at the right time makes all the difference in you
     imageUrl: "/lovable-uploads/0651f71a-9e1c-4cc0-ac06-d637f4c03ad3.png",
     readTime: "7 min read",
     content: `
-## Physiotherapy Exercises vs. Gym Workouts: What's the Difference?
+<h2>Physiotherapy Exercises vs. Gym Workouts: What's the Difference?</h2>
+<p>Happy New Year from Dr. Hamid's Physio Clinic! As we embark on 2021 with renewed health commitments, let's address a common misconception: Are physiotherapy exercises the same as gym workouts?</p>
 
-Happy New Year from Dr. Hamid's Physio Clinic! As we embark on 2021 with renewed health commitments, let's address a common misconception: Are physiotherapy exercises the same as gym workouts?
+<h3>The Common Misconception</h3>
+<p>Many people consciously or subconsciously believe that exercise prescriptions from physiotherapists are identical to gym workout routines. Today, we're setting the record straight!</p>
 
-### The Common Misconception
+<h3>Understanding Physiotherapy Exercises</h3>
+<p>Physiotherapists plan <strong>therapeutic exercises</strong> for individuals. These exercises help patients:</p>
+<ul>
+  <li>Improve physical fitness</li>
+  <li>Prevent impairments</li>
+  <li>Reduce health-related risks</li>
+  <li>Achieve optimal health</li>
+</ul>
 
-Many people consciously or subconsciously believe that exercise prescriptions from physiotherapists are identical to gym workout routines. Today, we're setting the record straight!
+<p><strong>The Physiotherapy Approach:</strong></p>
+<ol>
+  <li><strong>Listen:</strong> We carefully hear your concerns and symptoms</li>
+  <li><strong>History:</strong> Review past and present medical history</li>
+  <li><strong>Examine:</strong> Conduct thorough physical examination</li>
+  <li><strong>Diagnose:</strong> Make a provisional diagnosis</li>
+  <li><strong>Plan:</strong> Create a customized treatment protocol</li>
+  <li><strong>Monitor:</strong> Track progress and adjust as needed</li>
+</ol>
 
-### Understanding Physiotherapy Exercises
+<p>Exercises are specifically tailored to your <strong>condition</strong>, not just your goals. Each movement serves a therapeutic purpose targeting your specific injury or condition.</p>
 
-Physiotherapists plan **therapeutic exercises** for individuals. These exercises help patients:
+<h3>Understanding Gym Workouts</h3>
+<p>Fitness trainers create fitness plans based on your <strong>fitness goals</strong>. These may include:</p>
+<ul>
+  <li>Strength training</li>
+  <li>Muscle gain</li>
+  <li>Fat loss</li>
+  <li>Endurance training</li>
+  <li>Athletic skill development</li>
+  <li>Body toning</li>
+  <li>Cardiovascular fitness</li>
+</ul>
 
-- Improve physical fitness
-- Prevent impairments
-- Reduce health-related risks
-- Achieve optimal health
+<p><strong>The Fitness Approach:</strong></p>
+<ul>
+  <li>Focus on general fitness and aesthetics</li>
+  <li>Work with healthy bodies</li>
+  <li>Include nutrition and diet planning</li>
+  <li>Build muscle mass and endurance</li>
+  <li>Achieve personal fitness milestones</li>
+</ul>
 
-**The Physiotherapy Approach:**
+<h3>The Key Differences</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Aspect</th>
+      <th>Physiotherapy</th>
+      <th>Gym Training</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Target</strong></td>
+      <td>Injured or impaired bodies</td>
+      <td>Healthy bodies</td>
+    </tr>
+    <tr>
+      <td><strong>Focus</strong></td>
+      <td>Pain management & rehabilitation</td>
+      <td>Muscle building & fitness</td>
+    </tr>
+    <tr>
+      <td><strong>Approach</strong></td>
+      <td>Condition-specific protocols</td>
+      <td>Goal-based programs</td>
+    </tr>
+    <tr>
+      <td><strong>Outcome</strong></td>
+      <td>Functional recovery</td>
+      <td>Enhanced performance</td>
+    </tr>
+    <tr>
+      <td><strong>Basis</strong></td>
+      <td>Clinical assessment</td>
+      <td>Fitness goals</td>
+    </tr>
+  </tbody>
+</table>
 
-1. **Listen:** We carefully hear your concerns and symptoms
-2. **History:** Review past and present medical history
-3. **Examine:** Conduct thorough physical examination
-4. **Diagnose:** Make a provisional diagnosis
-5. **Plan:** Create a customized treatment protocol
-6. **Monitor:** Track progress and adjust as needed
+<h3>When to Choose What?</h3>
+<p><strong>Choose Physiotherapy When:</strong></p>
+<ul>
+  <li>Recovering from injury</li>
+  <li>Managing chronic pain</li>
+  <li>Post-surgery rehabilitation</li>
+  <li>Dealing with specific medical conditions</li>
+  <li>Need mobility restoration</li>
+</ul>
 
-Exercises are specifically tailored to your **condition**, not just your goals. Each movement serves a therapeutic purpose targeting your specific injury or condition.
+<p><strong>Choose Gym Training When:</strong></p>
+<ul>
+  <li>Generally healthy</li>
+  <li>Building muscle mass</li>
+  <li>Improving overall fitness</li>
+  <li>Training for sports</li>
+  <li>Body aesthetic goals</li>
+</ul>
 
-### Understanding Gym Workouts
+<h3>The Bottom Line</h3>
+<p>Both fitness trainers and physiotherapists are valuable allies in your health journey. The main difference? <strong>Fitness trainers work with healthy bodies focusing on building and aesthetics, while physiotherapists work with injured bodies focusing on pain management and functional rehabilitation.</strong></p>
 
-Fitness trainers create fitness plans based on your **fitness goals**. These may include:
+<p>At Dr. Hamid's Physio Clinic in Manikonda, we specialize in therapeutic exercises designed specifically for your recovery and rehabilitation needs. Our evidence-based approach ensures you receive the right exercises for your specific condition.</p>
 
-- Strength training
-- Muscle gain
-- Fat loss
-- Endurance training
-- Athletic skill development
-- Body toning
-- Cardiovascular fitness
-
-**The Fitness Approach:**
-
-- Focus on general fitness and aesthetics
-- Work with healthy bodies
-- Include nutrition and diet planning
-- Build muscle mass and endurance
-- Achieve personal fitness milestones
-
-### The Key Differences
-
-| Aspect | Physiotherapy | Gym Training |
-|--------|--------------|--------------|
-| **Target** | Injured or impaired bodies | Healthy bodies |
-| **Focus** | Pain management & rehabilitation | Muscle building & fitness |
-| **Approach** | Condition-specific protocols | Goal-based programs |
-| **Outcome** | Functional recovery | Enhanced performance |
-| **Basis** | Clinical assessment | Fitness goals |
-
-### When to Choose What?
-
-**Choose Physiotherapy When:**
-- Recovering from injury
-- Managing chronic pain
-- Post-surgery rehabilitation
-- Dealing with specific medical conditions
-- Need mobility restoration
-
-**Choose Gym Training When:**
-- Generally healthy
-- Building muscle mass
-- Improving overall fitness
-- Training for sports
-- Body aesthetic goals
-
-### The Bottom Line
-
-Both fitness trainers and physiotherapists are valuable allies in your health journey. The main difference? **Fitness trainers work with healthy bodies focusing on building and aesthetics, while physiotherapists work with injured bodies focusing on pain management and functional rehabilitation.**
-
-At Dr. Hamid's Physio Clinic in Manikonda, we specialize in therapeutic exercises designed specifically for your recovery and rehabilitation needs. Our evidence-based approach ensures you receive the right exercises for your specific condition.
-
-Remember: The right exercise at the right time makes all the difference in your recovery!
+<p><strong>Remember: The right exercise at the right time makes all the difference in your recovery!</strong></p>
     `
   },
   {
@@ -222,128 +247,138 @@ Remember: The right exercise at the right time makes all the difference in your 
     imageUrl: "/lovable-uploads/7b58bcad-171e-4d7d-a569-8269c66ed030.png",
     readTime: "9 min read",
     content: `
-## Understanding the Role of Physiotherapy in Our Daily Lives
+<h2>Understanding the Role of Physiotherapy in Our Daily Lives</h2>
+<p>Welcome to Dr. Hamid's Physio Clinic! Today, we're exploring how physiotherapy plays a vital role in maintaining and improving our quality of life.</p>
 
-Welcome to Dr. Hamid's Physio Clinic! Today, we're exploring how physiotherapy plays a vital role in maintaining and improving our quality of life.
+<h3>What Exactly is Physiotherapy?</h3>
+<p>Physiotherapy is a medical profession that works with patients to develop, maintain, and restore maximum movement and functional ability using various therapeutic exercises and electrotherapy techniques.</p>
 
-### What Exactly is Physiotherapy?
+<p>According to the Chartered Society of Physiotherapy (UK), physiotherapists help people affected by injury, illness, or disability through:</p>
+<ul>
+  <li>Movement and exercise</li>
+  <li>Manual therapy</li>
+  <li>Education and advice</li>
+  <li>Pain management</li>
+  <li>Disease prevention</li>
+</ul>
 
-Physiotherapy is a medical profession that works with patients to develop, maintain, and restore maximum movement and functional ability using various therapeutic exercises and electrotherapy techniques.
+<h3>The Role of a Physiotherapist</h3>
+<p>Although physiotherapy is often associated with injury treatment, it's actually an incredibly effective treatment path for a variety of conditions:</p>
+<ul>
+  <li>Natural effects of aging</li>
+  <li>Disease management</li>
+  <li>Disorder treatment</li>
+  <li>Injury prevention</li>
+  <li>Habilitation and rehabilitation</li>
+</ul>
 
-According to the Chartered Society of Physiotherapy (UK), physiotherapists help people affected by injury, illness, or disability through:
+<h3>Benefits of Physical Therapy</h3>
+<p>The perks of physiotherapy include (but are not limited to):</p>
 
-- Movement and exercise
-- Manual therapy
-- Education and advice
-- Pain management
-- Disease prevention
+<h4>1. Pain Relief</h4>
+<p>Physiotherapy helps reduce pain, swelling, and inflammation through targeted treatments and exercises.</p>
 
-### The Role of a Physiotherapist
+<h4>2. Strength Training</h4>
+<p>Strengthening specific muscles helps control pain and prevent future injuries.</p>
 
-Although physiotherapy is often associated with injury treatment, it's actually an incredibly effective treatment path for a variety of conditions:
+<h4>3. Posture Correction</h4>
+<p>Correcting posture relieves pain from the neck and back, improving overall body mechanics.</p>
 
-- Natural effects of aging
-- Disease management
-- Disorder treatment
-- Injury prevention
-- Habilitation and rehabilitation
+<h4>4. Increased Range of Motion (ROM)</h4>
+<p>Essential for conditions like frozen shoulder or post-fracture stiffness.</p>
 
-### Benefits of Physical Therapy
+<h4>5. Improved Cardio-Respiratory Function</h4>
+<p>Breathing exercises, limb physiotherapy, and chest physiotherapy enhance cardio-respiratory function.</p>
 
-The perks of physiotherapy include (but are not limited to):
+<h4>6. Better Coordination</h4>
+<p>Crucial for conditions like Parkinson's, multiple sclerosis, and cerebral palsy.</p>
 
-#### 1. Pain Relief
-Physiotherapy helps reduce pain, swelling, and inflammation through targeted treatments and exercises.
+<h4>7. Fall Prevention</h4>
+<p>Improves balance, reducing fall risk in older adults, toddlers, and injured individuals.</p>
 
-#### 2. Strength Training
-Strengthening specific muscles helps control pain and prevent future injuries.
+<h4>8. Maintaining Activities of Daily Living (ADL)</h4>
+<p>Helps modify activities for conditions like rheumatoid arthritis, spinal cord injury, and stroke recovery.</p>
 
-#### 3. Posture Correction
-Correcting posture relieves pain from the neck and back, improving overall body mechanics.
+<h3>Conditions Treated by Physiotherapy</h3>
+<p>Physiotherapy effectively treats:</p>
 
-#### 4. Increased Range of Motion (ROM)
-Essential for conditions like frozen shoulder or post-fracture stiffness.
+<p><strong>Neurological Conditions:</strong></p>
+<ul>
+  <li>Stroke</li>
+  <li>Parkinson's disease</li>
+  <li>Multiple sclerosis</li>
+  <li>Cerebral palsy</li>
+</ul>
 
-#### 5. Improved Cardio-Respiratory Function
-Breathing exercises, limb physiotherapy, and chest physiotherapy enhance cardio-respiratory function.
+<p><strong>Musculoskeletal Conditions:</strong></p>
+<ul>
+  <li>Back and neck pain</li>
+  <li>Arthritis</li>
+  <li>Sports injuries</li>
+  <li>Post-surgical rehabilitation</li>
+</ul>
 
-#### 6. Better Coordination
-Crucial for conditions like Parkinson's, multiple sclerosis, and cerebral palsy.
+<p><strong>Cardiovascular & Pulmonary:</strong></p>
+<ul>
+  <li>Chronic respiratory diseases</li>
+  <li>Cardiac rehabilitation</li>
+  <li>Post-COVID recovery</li>
+</ul>
 
-#### 7. Fall Prevention
-Improves balance, reducing fall risk in older adults, toddlers, and injured individuals.
+<p><strong>Pediatric & Geriatric:</strong></p>
+<ul>
+  <li>Developmental delays</li>
+  <li>Age-related mobility issues</li>
+  <li>Balance disorders</li>
+</ul>
 
-#### 8. Maintaining Activities of Daily Living (ADL)
-Helps modify activities for conditions like rheumatoid arthritis, spinal cord injury, and stroke recovery.
+<h3>Physiotherapy Across Life Stages</h3>
 
-### Conditions Treated by Physiotherapy
+<p><strong>Children & Adolescents:</strong></p>
+<ul>
+  <li>Developmental coordination</li>
+  <li>Sports injury prevention</li>
+  <li>Posture correction</li>
+</ul>
 
-Physiotherapy effectively treats:
+<p><strong>Adults:</strong></p>
+<ul>
+  <li>Work-related injuries</li>
+  <li>Chronic pain management</li>
+  <li>Injury rehabilitation</li>
+</ul>
 
-**Neurological Conditions:**
-- Stroke
-- Parkinson's disease
-- Multiple sclerosis
-- Cerebral palsy
+<p><strong>Seniors:</strong></p>
+<ul>
+  <li>Fall prevention</li>
+  <li>Mobility maintenance</li>
+  <li>Age-related condition management</li>
+</ul>
 
-**Musculoskeletal Conditions:**
-- Back and neck pain
-- Arthritis
-- Sports injuries
-- Post-surgical rehabilitation
+<h3>The Dr. Hamid's Physio Clinic Approach</h3>
+<p>At our clinic in Puppalguda, Manikonda, we take a comprehensive approach:</p>
+<ol>
+  <li><strong>Thorough Assessment:</strong> Understanding your condition fully</li>
+  <li><strong>Personalized Plan:</strong> Customized treatment protocols</li>
+  <li><strong>Evidence-Based Treatment:</strong> Proven therapeutic techniques</li>
+  <li><strong>Patient Education:</strong> Empowering you with knowledge</li>
+  <li><strong>Ongoing Support:</strong> Monitoring progress and adjusting treatment</li>
+</ol>
 
-**Cardiovascular & Pulmonary:**
-- Chronic respiratory diseases
-- Cardiac rehabilitation
-- Post-COVID recovery
+<h3>Prevention is Better Than Cure</h3>
+<p>Physiotherapy isn't just for treatment — it's excellent for prevention:</p>
+<ul>
+  <li>Workplace ergonomics assessment</li>
+  <li>Sports injury prevention programs</li>
+  <li>Posture education</li>
+  <li>Strengthening exercises</li>
+  <li>Flexibility training</li>
+</ul>
 
-**Pediatric & Geriatric:**
-- Developmental delays
-- Age-related mobility issues
-- Balance disorders
+<h3>Your Partner in Health</h3>
+<p>At Dr. Hamid's Physio Clinic, we're committed to helping you achieve and maintain optimal physical health. Whether you're recovering from an injury, managing a chronic condition, or simply want to improve your quality of life, our expert physiotherapy services in Manikonda, Hyderabad are here to support you.</p>
 
-### Physiotherapy Across Life Stages
-
-**Children & Adolescents:**
-- Developmental coordination
-- Sports injury prevention
-- Posture correction
-
-**Adults:**
-- Work-related injuries
-- Chronic pain management
-- Injury rehabilitation
-
-**Seniors:**
-- Fall prevention
-- Mobility maintenance
-- Age-related condition management
-
-### The Dr. Hamid's Physio Clinic Approach
-
-At our clinic in Puppalguda, Manikonda, we take a comprehensive approach:
-
-1. **Thorough Assessment:** Understanding your condition fully
-2. **Personalized Plan:** Customized treatment protocols
-3. **Evidence-Based Treatment:** Proven therapeutic techniques
-4. **Patient Education:** Empowering you with knowledge
-5. **Ongoing Support:** Monitoring progress and adjusting treatment
-
-### Prevention is Better Than Cure
-
-Physiotherapy isn't just for treatment — it's excellent for prevention:
-
-- Workplace ergonomics assessment
-- Sports injury prevention programs
-- Posture education
-- Strengthening exercises
-- Flexibility training
-
-### Your Partner in Health
-
-At Dr. Hamid's Physio Clinic, we're committed to helping you achieve and maintain optimal physical health. Whether you're recovering from an injury, managing a chronic condition, or simply want to improve your quality of life, our expert physiotherapy services in Manikonda, Hyderabad are here to support you.
-
-Remember: Your body is designed to move. Let us help you move better, feel better, and live better!
+<p><strong>Remember: Your body is designed to move. Let us help you move better, feel better, and live better!</strong></p>
     `
   }
 ];

@@ -272,7 +272,7 @@ const HomePage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <AppointmentForm />
             <ContactMap 
-              mapEmbedUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.2!2d78.3892!3d17.4165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9184c7f8c5ed%3A0x123456789!2sFriends%20Colony%20Park%2C%20Puppalguda%2C%20Manikonda%2C%20Hyderabad%2C%20Telangana%20500089!5e0!3m2!1sen!2sin!4v1699000000000!5m2!1sen!2sin"
+              mapEmbedUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.7943774743834!2d78.38473897501784!3d17.41656098355649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9731e2c8f7a7%3A0x9b4b4e7df7dafb7f!2sFriends%20Colony%20Park%2C%20Puppalguda%2C%20Manikonda%2C%20Hyderabad%2C%20Telangana%20500089!5e0!3m2!1sen!2sin!4v1699534729283!5m2!1sen!2sin"
               className="h-full min-h-[400px] rounded-2xl shadow-lg"
             />
           </div>
@@ -299,7 +299,7 @@ const HomePage = () => {
                 ))}
               </div>
               <p className="text-gray-700 italic mb-6 leading-relaxed">
-                "After months of back pain, I found relief after just a few sessions at Relish Physiotherapy. The therapists are knowledgeable, caring, and attentive."
+                "After months of back pain, I found relief after just a few sessions at Dr. Hamid's Physio Clinic. The therapists are knowledgeable, caring, and attentive."
               </p>
               <p className="text-gray-900 font-semibold">- R.K.</p>
             </div>

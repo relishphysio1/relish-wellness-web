@@ -31,7 +31,7 @@ const AboutPage = () => {
           <div className="prose prose-lg max-w-none">
             <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12 mb-12">
               <p className="text-lg leading-relaxed text-gray-700 mb-8">
-                <strong>Alhamdulillah</strong>, since our founding in January 2021 by Dr. Hamid Ali, Dr. Hamid's Physio Clinic has grown into Manikonda's trusted destination for compassionate, five-star care. Located in Puppalguda near Friends Colony Park, <strong>Subhanallahi wabihamdihi</strong>, our commitment to excellence is reflected in every smile, every success story, and our consistent ⭐⭐⭐⭐⭐ ratings.
+                Since our founding in January 2021 by Dr. Hamid Ali, Dr. Hamid's Physio Clinic has grown into Manikonda's trusted destination for compassionate, five-star care. Located in Puppalguda near Friends Colony Park, our commitment to excellence is reflected in every smile, every success story, and our consistent ⭐⭐⭐⭐⭐ ratings.
               </p>
             </div>
 
@@ -63,7 +63,7 @@ const AboutPage = () => {
                   <div className="bg-relish-200 rounded-full p-1 mr-3 mt-1 flex-shrink-0">
                     <div className="w-2 h-2 bg-relish-600 rounded-full"></div>
                   </div>
-                  <span>Spiritual sensitivity that honors our shared values</span>
+                  <span>Compassionate care that respects individual needs and preferences</span>
                 </li>
               </ul>
             </div>
