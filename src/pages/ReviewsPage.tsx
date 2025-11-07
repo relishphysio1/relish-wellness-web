@@ -1,7 +1,9 @@
 import { useState } from "react";
+import { Link, useNavigate, useLocation } from "react-router-dom";
 import ReviewCard from "@/components/ReviewCard";
 import { Star } from "lucide-react";
 import StructuredData from "@/components/StructuredData";
+import { scrollToAppointmentSection } from "@/lib/navigation";
 
 interface Review {
   id: number;
@@ -13,6 +15,9 @@ interface Review {
 }
 
 const ReviewsPage = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
+  
   // Real reviews data
   const allReviews: Review[] = [
     { id: 1, patientInitials: "SS", patientName: "Srikishan Singhaniya", rating: 5, comment: "I had the pleasure of visiting Dr Mohammed Hamid Ali, and I must say, the services provided are absolutely outstanding. From the moment I walked in, I felt welcomed and cared for. Dr. Hamid's expertise is unparalleled; he took the time to thoroughly assess my condition and tailored a treatment plan that has significantly improved my well-being. His attention to detail, professionalism, and dedication to his patients are truly commendable. The entire team at Relish Physiotherapy is friendly and accommodating, creating a positive and healing environment. I highly recommend Dr. Mohammed Hamid Ali for anyone seeking top-notch physiotherapy and wellness care!", date: "March 28, 2025" },
@@ -153,11 +158,12 @@ const ReviewsPage = () => {
             <p className="text-lg mb-8 text-white/90">
               Experience the difference quality physiotherapy can make in your life. Book your appointment today.
             </p>
-            <a href="https://wa.me/7601026596">
-              <button className="bg-white text-wellness-700 hover:bg-gray-100 rounded-lg px-8 py-3 font-medium transition-colors duration-200">
-                Book an Appointment
-              </button>
-            </a>
+            <button 
+              onClick={() => scrollToAppointmentSection(navigate, location.pathname)}
+              className="bg-white text-wellness-700 hover:bg-gray-100 rounded-lg px-8 py-3 font-medium transition-colors duration-200"
+            >
+              Book an Appointment
+            </button>
           </div>
         </div>
       </section>

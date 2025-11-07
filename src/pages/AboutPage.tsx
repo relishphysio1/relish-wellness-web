@@ -31,7 +31,7 @@ const AboutPage = () => {
           <div className="prose prose-lg max-w-none">
             <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12 mb-12">
               <p className="text-lg leading-relaxed text-gray-700 mb-8">
-                Since our founding in January 2021 by Dr. Hamid Ali, Dr. Hamid's Physio Clinic has grown into Manikonda's trusted destination for compassionate, five-star care. Located in Puppalguda near Friends Colony Park, our commitment to excellence is reflected in every smile, every success story, and our consistent ⭐⭐⭐⭐⭐ ratings.
+                Founded in 2021 by Dr. Hamid Ali, Dr. Hamid's Physio Clinic has recently relocated to Manikonda, offering advanced physiotherapy and evidence-based rehabilitation in a modern, patient-centred environment. Now operating from Puppalguda near Friends Colony Park, the clinic focuses on accurate diagnosis, personalized treatment plans, and consistent, measurable recovery outcomes. Our approach combines professional expertise with updated techniques, making us a reliable choice for physiotherapy and pain management in the Manikonda–Puppalguda area.
               </p>
             </div>
 

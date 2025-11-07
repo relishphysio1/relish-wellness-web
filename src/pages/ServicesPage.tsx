@@ -1,4 +1,7 @@
+import { Link, useNavigate, useLocation } from "react-router-dom";
 import ServiceCard from "@/components/ServiceCard";
+import StructuredData from "@/components/StructuredData";
+import { scrollToAppointmentSection } from "@/lib/navigation";
 
 const services = [
   {
@@ -45,9 +48,10 @@ const services = [
   },
 ];
 
-import StructuredData from "@/components/StructuredData";
-
 const ServicesPage = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
+  
   return (
     <div>
       <StructuredData 
@@ -92,11 +96,12 @@ const ServicesPage = () => {
             <p className="text-lg mb-8 text-white/90">
               Our team of experienced physiotherapists is here to help you achieve optimal physical health and wellbeing.
             </p>
-            <a href="/#appointment">
-              <button className="bg-white text-relish-700 hover:bg-gray-100 rounded-lg px-8 py-3 font-medium transition-colors duration-200">
-                Book an Appointment
-              </button>
-            </a>
+            <button 
+              onClick={() => scrollToAppointmentSection(navigate, location.pathname)}
+              className="bg-white text-relish-700 hover:bg-gray-100 rounded-lg px-8 py-3 font-medium transition-colors duration-200"
+            >
+              Book an Appointment
+            </button>
           </div>
         </div>
       </section>
