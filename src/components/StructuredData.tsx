@@ -11,7 +11,7 @@ const StructuredData = ({ type = "homepage", pageTitle, pageDescription }: Struc
     "@context": "https://schema.org",
     "@type": "Physiotherapy",
     "name": "Dr. Hamid's Physio Clinic",
-    "image": "https://lovable.dev/opengraph-image-p98pqg.png",
+    "image": "/og-image.png",
     "url": "https://yourwebsite.com",
     "@id": "https://yourwebsite.com",
     "telephone": "+919885755888",
@@ -144,7 +144,7 @@ const StructuredData = ({ type = "homepage", pageTitle, pageDescription }: Struc
     "name": "Dr. Hamid's Physio Clinic",
     "alternateName": "Dr Hamid Physiotherapy",
     "url": "https://yourwebsite.com",
-    "logo": "https://lovable.dev/opengraph-image-p98pqg.png",
+    "logo": "/og-image.png",
     "contactPoint": {
       "@type": "ContactPoint",
       "telephone": "+919885755888",
