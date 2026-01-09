@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/google5d006f26e5daf13c.html",
-      "destination": "/google5d006f26e5daf13c.html"
+      "destination": "/api/google5d006f26e5daf13c"
     },
     {
       "source": "/((?!.*\\.).*)",
@@ -10,3 +10,4 @@
     }
   ]
 }
+
