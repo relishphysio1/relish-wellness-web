@@ -2,13 +2,18 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import ServiceCard from "@/components/ServiceCard";
+import ConditionCard from "@/components/ConditionCard";
+import TherapyCard from "@/components/TherapyCard";
 import AppointmentForm from "@/components/AppointmentForm";
+import CallbackForm from "@/components/CallbackForm";
 import ContactMap from "@/components/ContactMap";
 import StructuredData from "@/components/StructuredData";
-import { MapPin, Phone, MessageSquare, ArrowDown, Star, Stethoscope } from "lucide-react";
+import StickyCTA from "@/components/StickyCTA";
+import { conditions } from "@/data/conditions";
+import { therapies } from "@/data/therapies";
+import { MapPin, Phone, MessageSquare, ArrowDown, Star, Stethoscope, Home, Zap, Activity, Radio, Dumbbell, ClipboardList, Hand } from "lucide-react";
 
 const HomePage = () => {
-  // Featured services (simplified versions)
   const featuredServices = [
     {
       id: 1,
@@ -33,6 +38,19 @@ const HomePage = () => {
     },
   ];
 
+  const getTherapyIcon = (iconName: string) => {
+    const iconProps = { className: "w-6 h-6 text-relish-600" };
+    switch (iconName) {
+      case "hands": return <Hand {...iconProps} />;
+      case "zap": return <Zap {...iconProps} />;
+      case "activity": return <Activity {...iconProps} />;
+      case "radio": return <Radio {...iconProps} />;
+      case "dumbbell": return <Dumbbell {...iconProps} />;
+      case "clipboard": return <ClipboardList {...iconProps} />;
+      default: return <Stethoscope {...iconProps} />;
+    }
+  };
+
   const scrollToAppointment = () => {
     const appointmentSection = document.getElementById('appointment');
     if (appointmentSection) {
@@ -40,21 +58,29 @@ const HomePage = () => {
     }
   };
 
+  const handleWhatsAppHomeService = () => {
+    window.open(
+      "https://wa.me/917601026596?text=Hi,%20I%20would%20like%20to%20enquire%20about%20physiotherapy%20at%20home%20service.",
+      "_blank"
+    );
+  };
+
   return (
-    <div>
+    <div className="pb-16 md:pb-0">
       <StructuredData type="homepage" />
-      {/* Hero Section */}
+      
+      {/* Hero Section - Updated Copy */}
       <section className="relative bg-gradient-to-br from-blue-50 via-green-50 to-teal-50 pt-8 pb-16 md:pt-16 md:pb-24 overflow-hidden">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-0 left-0 w-72 h-72 bg-gradient-to-br from-relish-400 to-wellness-400 rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
-          <div className="absolute top-0 right-0 w-72 h-72 bg-gradient-to-br from-wellness-400 to-relish-400 rounded-full mix-blend-multiply filter blur-xl animate-pulse animation-delay-2000"></div>
-          <div className="absolute bottom-0 left-1/2 w-72 h-72 bg-gradient-to-br from-blue-400 to-green-400 rounded-full mix-blend-multiply filter blur-xl animate-pulse animation-delay-4000"></div>
+          <div className="absolute top-0 right-0 w-72 h-72 bg-gradient-to-br from-wellness-400 to-relish-400 rounded-full mix-blend-multiply filter blur-xl animate-pulse" style={{ animationDelay: "2s" }}></div>
+          <div className="absolute bottom-0 left-1/2 w-72 h-72 bg-gradient-to-br from-blue-400 to-green-400 rounded-full mix-blend-multiply filter blur-xl animate-pulse" style={{ animationDelay: "4s" }}></div>
         </div>
         
         <div className="container px-4 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-            <div className="text-center lg:text-left space-y-6">
+            <div className="text-center lg:text-left space-y-6 animate-fade-in">
               <div className="flex items-center justify-center lg:justify-start mb-4">
                 <img 
                   src="/lovable-uploads/hamid-physio-logo.png" 
@@ -66,14 +92,14 @@ const HomePage = () => {
               <div className="space-y-4">
                 <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold font-display leading-tight text-gray-900">
                   <span className="bg-gradient-to-r from-relish-600 to-wellness-600 bg-clip-text text-transparent">
-                    Revitalize Your Body
+                    Expert Physiotherapy
                   </span>
                   <br />
-                  <span className="text-gray-800">with Expert Care</span>
+                  <span className="text-gray-800">in Manikonda, Hyderabad</span>
                 </h1>
                 
                 <p className="text-base sm:text-lg leading-relaxed text-gray-600 max-w-2xl mx-auto lg:mx-0">
-                  At Dr. Hamid's Physio Clinic in Manikonda, Hyderabad, Dr. Mohammed Hamid Ali, BPT combines advanced physiotherapy techniques and personalized care to help you recover, strengthen, and live pain-free.
+                  Personalized treatment for pain relief, injury recovery, post-surgery rehab, and mobility improvement. Experience compassionate care with Dr. Mohammed Hamid Ali, BPT.
                 </p>
               </div>
               
@@ -85,15 +111,19 @@ const HomePage = () => {
                 >
                   Book Appointment
                 </Button>
-                <Link to="/services">
-                  <Button variant="outline" size="lg" className="border-2 border-relish-600 text-relish-600 hover:bg-relish-50 px-6 py-3 text-base font-semibold w-full sm:w-auto">
-                    Explore Services
-                  </Button>
-                </Link>
+                <Button 
+                  variant="outline" 
+                  size="lg" 
+                  className="border-2 border-wellness-600 text-wellness-600 hover:bg-wellness-50 px-6 py-3 text-base font-semibold w-full sm:w-auto flex items-center justify-center gap-2"
+                  onClick={handleWhatsAppHomeService}
+                >
+                  <Home className="w-5 h-5" />
+                  Physiotherapy at Home
+                </Button>
               </div>
             </div>
             
-            <div className="relative">
+            <div className="relative animate-fade-in" style={{ animationDelay: "0.2s" }}>
               <div className="relative bg-white rounded-3xl shadow-2xl p-6 sm:p-8 backdrop-blur-sm bg-opacity-95">
                 <div className="text-center space-y-4">
                   <div className="mx-auto w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-br from-relish-500 to-wellness-500 rounded-full flex items-center justify-center shadow-lg">
@@ -119,7 +149,6 @@ const HomePage = () => {
                   </div>
                 </div>
                 
-                {/* Floating elements */}
                 <div className="absolute -top-4 -right-4 w-8 h-8 bg-yellow-400 rounded-full animate-bounce"></div>
                 <div className="absolute -bottom-4 -left-4 w-6 h-6 bg-green-400 rounded-full animate-pulse"></div>
               </div>
@@ -127,7 +156,7 @@ const HomePage = () => {
           </div>
         </div>
         
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center hidden sm:flex">
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex-col items-center hidden sm:flex">
           <p className="text-sm text-gray-600 mb-2">Discover our services</p>
           <ArrowDown className="w-5 h-5 text-relish-600 animate-bounce" />
         </div>
@@ -159,8 +188,70 @@ const HomePage = () => {
         </div>
       </section>
 
+      {/* Conditions We Treat Section */}
+      <section className="py-16 md:py-24 px-4 bg-white">
+        <div className="container">
+          <div className="text-center mb-16 animate-fade-in">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-display mb-6 text-gray-900">
+              Conditions We <span className="bg-gradient-to-r from-relish-600 to-wellness-600 bg-clip-text text-transparent">Treat</span>
+            </h2>
+            <p className="text-lg sm:text-xl leading-relaxed text-gray-600 max-w-3xl mx-auto">
+              Expert physiotherapy treatment for a wide range of musculoskeletal and neurological conditions in Manikonda, Hyderabad.
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {conditions.map((condition, index) => (
+              <div 
+                key={condition.slug} 
+                className="animate-fade-in"
+                style={{ animationDelay: `${index * 0.1}s` }}
+              >
+                <ConditionCard
+                  title={condition.title}
+                  description={condition.shortDescription}
+                  imageSrc={condition.imageSrc}
+                  slug={condition.slug}
+                  altText={condition.altText}
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Therapies Offered Section */}
+      <section className="py-16 md:py-24 px-4 bg-gradient-to-br from-gray-50 to-blue-50">
+        <div className="container">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-display mb-6 text-gray-900">
+              Therapies <span className="bg-gradient-to-r from-relish-600 to-wellness-600 bg-clip-text text-transparent">Offered</span>
+            </h2>
+            <p className="text-lg sm:text-xl leading-relaxed text-gray-600 max-w-3xl mx-auto">
+              Advanced physiotherapy modalities and evidence-based treatments for optimal recovery.
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {therapies.map((therapy, index) => (
+              <div 
+                key={therapy.id}
+                className="animate-fade-in"
+                style={{ animationDelay: `${index * 0.1}s` }}
+              >
+                <TherapyCard
+                  title={therapy.title}
+                  description={therapy.description}
+                  icon={getTherapyIcon(therapy.icon)}
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* About the Doctor Section */}
-      <section className="py-16 md:py-24 px-4 bg-gradient-to-br from-gray-50 to-gray-100">
+      <section className="py-16 md:py-24 px-4 bg-white">
         <div className="container">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
@@ -174,21 +265,32 @@ const HomePage = () => {
               </div>
             </div>
             
-            <div className="bg-white rounded-3xl shadow-xl p-8 md:p-12">
+            <div className="bg-gradient-to-br from-gray-50 to-blue-50 rounded-3xl shadow-xl p-8 md:p-12">
               <div className="space-y-6">
                 <div className="text-center mb-8">
                   <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
-                    👨‍⚕️ About Dr. Mohammed Hamid Ali
+                    👨‍⚕️ Dr. Mohammed Hamid Ali, BPT
                   </h3>
                 </div>
                 
                 <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-6">
                   <p className="text-lg sm:text-xl">
-                    Dr. Mohammed Hamid Ali is a certified physiotherapist, holding a Bachelor of Physiotherapy (BPT) degree, with over 6 years of hands-on clinical experience in guiding patients toward pain-free, active living. Known for his gentle demeanor and precise approach, Dr. Hamid combines deep medical knowledge with a sincere commitment to patient wellbeing.
+                    Dr. Mohammed Hamid Ali is a certified physiotherapist with a Bachelor of Physiotherapy (BPT) degree and over 6 years of hands-on clinical experience. Known for his gentle demeanor and precise approach, Dr. Hamid combines deep medical knowledge with a sincere commitment to patient wellbeing.
                   </p>
                   
                   <p className="text-lg sm:text-xl">
                     His treatment philosophy is rooted in both science and compassion — ensuring each patient receives not just professional care, but also understanding, encouragement, and respect. From chronic pain to post-injury rehab, Dr. Hamid's expertise helps individuals regain mobility, confidence, and joy in everyday movement.
+                  </p>
+                </div>
+
+                {/* Areas Served */}
+                <div className="mt-8 p-6 bg-white rounded-xl">
+                  <h4 className="font-semibold text-gray-900 mb-3 flex items-center gap-2">
+                    <MapPin className="w-5 h-5 text-relish-600" />
+                    Areas We Serve
+                  </h4>
+                  <p className="text-gray-600">
+                    Manikonda, Puppalguda, Shaikpet, Alkapur Township, Narsingi, Gandipet, Kokapet, Financial District, Gachibowli, and surrounding areas in Hyderabad.
                   </p>
                 </div>
                 
@@ -270,7 +372,10 @@ const HomePage = () => {
           </div>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            <AppointmentForm />
+            <div className="space-y-8">
+              <AppointmentForm />
+              <CallbackForm />
+            </div>
             <ContactMap 
               mapEmbedUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.7943774743834!2d78.38473897501784!3d17.41656098355649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9731e2c8f7a7%3A0x9b4b4e7df7dafb7f!2sFriends%20Colony%20Park%2C%20Puppalguda%2C%20Manikonda%2C%20Hyderabad%2C%20Telangana%20500089!5e0!3m2!1sen!2sin!4v1699534729283!5m2!1sen!2sin"
               className="h-full min-h-[400px] rounded-2xl shadow-lg"
@@ -325,19 +430,22 @@ const HomePage = () => {
               <p className="text-gray-700 italic mb-6 leading-relaxed">
                 "Professional, punctual, and effective treatment. The clinic is clean and well-equipped. Will definitely continue my therapy here."
               </p>
-              <p className="text-gray-900 font-semibold">- A.P.</p>
+              <p className="text-gray-900 font-semibold">- A.S.</p>
             </div>
           </div>
           
           <div className="text-center mt-12">
             <Link to="/reviews">
               <Button variant="outline" size="lg" className="border-2 border-relish-600 text-relish-600 hover:bg-relish-50 px-8 py-4 text-lg font-semibold">
-                Read All Reviews
+                View All Reviews
               </Button>
             </Link>
           </div>
         </div>
       </section>
+
+      {/* Sticky CTA for Mobile */}
+      <StickyCTA />
     </div>
   );
 };
