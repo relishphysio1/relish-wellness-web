@@ -3,15 +3,13 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import ServiceCard from "@/components/ServiceCard";
 import ConditionCard from "@/components/ConditionCard";
-import TherapyCard from "@/components/TherapyCard";
 import AppointmentForm from "@/components/AppointmentForm";
 import CallbackForm from "@/components/CallbackForm";
 import ContactMap from "@/components/ContactMap";
 import StructuredData from "@/components/StructuredData";
 import StickyCTA from "@/components/StickyCTA";
 import { conditions } from "@/data/conditions";
-import { therapies } from "@/data/therapies";
-import { MapPin, Phone, MessageSquare, ArrowDown, Star, Stethoscope, Home, Zap, Activity, Radio, Dumbbell, ClipboardList, Hand } from "lucide-react";
+import { MapPin, Phone, ArrowDown, Star, Stethoscope, Home } from "lucide-react";
 
 const HomePage = () => {
   const featuredServices = [
@@ -36,20 +34,14 @@ const HomePage = () => {
       imageSrc: "/lovable-uploads/0651f71a-9e1c-4cc0-ac06-d637f4c03ad3.png",
       altText: "Patient performing exercise therapy with physiotherapist guidance using resistance bands"
     },
+    {
+      id: 4,
+      title: "Consultation & Assessment",
+      description: "Comprehensive evaluation of your condition including physical examination and development of a customized treatment plan.",
+      imageSrc: "/lovable-uploads/7b58bcad-171e-4d7d-a569-8269c66ed030.png",
+      altText: "Professional physiotherapy consultation with doctor and patient discussing treatment plan"
+    },
   ];
-
-  const getTherapyIcon = (iconName: string) => {
-    const iconProps = { className: "w-6 h-6 text-relish-600" };
-    switch (iconName) {
-      case "hands": return <Hand {...iconProps} />;
-      case "zap": return <Zap {...iconProps} />;
-      case "activity": return <Activity {...iconProps} />;
-      case "radio": return <Radio {...iconProps} />;
-      case "dumbbell": return <Dumbbell {...iconProps} />;
-      case "clipboard": return <ClipboardList {...iconProps} />;
-      default: return <Stethoscope {...iconProps} />;
-    }
-  };
 
   const scrollToAppointment = () => {
     const appointmentSection = document.getElementById('appointment');
@@ -220,35 +212,6 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* Therapies Offered Section */}
-      <section className="py-16 md:py-24 px-4 bg-gradient-to-br from-gray-50 to-blue-50">
-        <div className="container">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-display mb-6 text-gray-900">
-              Therapies <span className="bg-gradient-to-r from-relish-600 to-wellness-600 bg-clip-text text-transparent">Offered</span>
-            </h2>
-            <p className="text-lg sm:text-xl leading-relaxed text-gray-600 max-w-3xl mx-auto">
-              Advanced physiotherapy modalities and evidence-based treatments for optimal recovery.
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {therapies.map((therapy, index) => (
-              <div 
-                key={therapy.id}
-                className="animate-fade-in"
-                style={{ animationDelay: `${index * 0.1}s` }}
-              >
-                <TherapyCard
-                  title={therapy.title}
-                  description={therapy.description}
-                  icon={getTherapyIcon(therapy.icon)}
-                />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* About the Doctor Section */}
       <section className="py-16 md:py-24 px-4 bg-white">
@@ -333,11 +296,11 @@ const HomePage = () => {
               Our <span className="bg-gradient-to-r from-relish-600 to-wellness-600 bg-clip-text text-transparent">Services</span>
             </h2>
             <p className="text-lg sm:text-xl leading-relaxed text-gray-600 max-w-3xl mx-auto">
-              We offer a comprehensive range of physiotherapy treatments tailored to meet your specific needs and promote optimal recovery.
+              Evidence-based physiotherapy treatments delivered with clinical expertise and personalized care.
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             {featuredServices.map((service) => (
               <ServiceCard
                 key={service.id}
@@ -347,14 +310,6 @@ const HomePage = () => {
                 altText={service.altText}
               />
             ))}
-          </div>
-          
-          <div className="text-center mt-12">
-            <Link to="/services">
-              <Button variant="outline" size="lg" className="border-2 border-relish-600 text-relish-600 hover:bg-relish-50 px-8 py-4 text-lg font-semibold">
-                View All Services
-              </Button>
-            </Link>
           </div>
         </div>
       </section>
@@ -377,7 +332,7 @@ const HomePage = () => {
               <CallbackForm />
             </div>
             <ContactMap 
-              mapEmbedUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.7943774743834!2d78.38473897501784!3d17.41656098355649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9731e2c8f7a7%3A0x9b4b4e7df7dafb7f!2sFriends%20Colony%20Park%2C%20Puppalguda%2C%20Manikonda%2C%20Hyderabad%2C%20Telangana%20500089!5e0!3m2!1sen!2sin!4v1699534729283!5m2!1sen!2sin"
+              mapEmbedUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.8521168584085!2d78.3852929!3d17.4140285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93e63a4f6c7b%3A0x8e5f8c0e99b7b8c9!2s4-3%2F81%2C%20Opp%20HDFC%20Bank%20ATM%2C%20Near%20Friends%20Colony%20Park%2C%20Puppalguda%2C%20Manikonda%2C%20Hyderabad%2C%20Telangana%20500089!5e0!3m2!1sen!2sin!4v1699534729283!5m2!1sen!2sin"
               className="h-full min-h-[400px] rounded-2xl shadow-lg"
             />
           </div>
