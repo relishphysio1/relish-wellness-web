@@ -27,24 +27,10 @@ const services = [
   },
   {
     id: 4,
-    title: "TENS Therapy",
-    description: "Transcutaneous Electrical Nerve Stimulation (TENS) therapy uses low-voltage electrical currents to provide pain relief. The small electrical pulses, delivered through electrodes placed on the skin, work by either blocking pain signals from reaching the brain or by stimulating the production of endorphins, your body's natural painkillers. TENS therapy is particularly useful for both acute and chronic pain management with minimal side effects.",
-    imageSrc: "/lovable-uploads/5ca6a65b-20db-497a-9cb4-8d50de4191ef.png",
-    altText: "TENS therapy electrodes applied to patient's back with unit visible"
-  },
-  {
-    id: 5,
-    title: "Consultation & Rehabilitation",
-    description: "Our comprehensive consultation and rehabilitation services begin with a thorough assessment of your condition, medical history, and goals. Based on this evaluation, we develop a personalized treatment plan that may include a combination of hands-on techniques, therapeutic exercises, and advice on lifestyle modifications. We regularly reassess your progress and adjust your treatment plan to ensure optimal outcomes and help you return to your daily activities with confidence.",
+    title: "Consultation & Assessment",
+    description: "Our comprehensive consultation and assessment services begin with a thorough evaluation of your condition, medical history, and goals. Based on this evaluation, we develop a personalized treatment plan that may include a combination of hands-on techniques, therapeutic exercises, and advice on lifestyle modifications. We regularly reassess your progress and adjust your treatment plan to ensure optimal outcomes and help you return to your daily activities with confidence.",
     imageSrc: "/lovable-uploads/7b58bcad-171e-4d7d-a569-8269c66ed030.png",
     altText: "Professional physiotherapy consultation with doctor and patient discussing treatment plan"
-  },
-  {
-    id: 6,
-    title: "Manual Therapy",
-    description: "Manual therapy encompasses a range of hands-on techniques performed by our skilled physiotherapists to treat musculoskeletal pain and disability. These may include joint mobilization, manipulation, soft tissue mobilization, and therapeutic massage. By applying controlled forces to joints and soft tissues, we help improve mobility, reduce pain, and enhance overall function, often achieving results where other approaches have been unsuccessful.",
-    imageSrc: "/lovable-uploads/6e67ff43-9972-4849-86a3-27617fcf9b7e.png",
-    altText: "Physiotherapist performing manual therapy and hands-on treatment on patient"
   },
 ];
 
